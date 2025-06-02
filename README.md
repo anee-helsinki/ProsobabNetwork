@@ -16,7 +16,8 @@ The password for the database in DB.
 From the MySql database, we extracted all persons, their attestations in documents, and the documents. We publish here three spreadsheets in a xlxs-file:
 - Individual persons with all the information in the database + all the attestations (ids) of the individual in texts
 - Documents with all the information in the database + all the attestations (ids) of idividuals in the document
-- The attestation of individuals (with ids) in documents (with ids) with information on that occasion. The tables are also available as separate tsv-files.
+- The attestation of individuals (with ids) in documents (with ids) with information on that occasion.
+The tables are also available as separate tsv-files.
 
 We also extracted networks with...
 
