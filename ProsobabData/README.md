@@ -1,2 +1,8 @@
 #### The data extracted from the Prosobab database dumb
 
+mindedProsobab.xlsx contains three spreadsheets:
+- Individual persons with all the information in the database + all the attestations (ids) of the individual in texts
+- Documents with all the information in the database + all the attestations (ids) of idividuals in the document
+- The attestation of individuals (with ids) in documents (with ids) with information on that occasion.
+
+Each table is also available as a separate tsv-file.
