@@ -1,4 +1,4 @@
-### To extract all the information on individuals copy the following queries one by one to MySql prompt. The name of the output file on the last line might have to be preceded by the path to the location where the file is saved.
+### To extract all the information on the attestations of individuals on different tablets copy the following query to the MySql prompt. The name of the output file on the last line might have to be preceded by the path to the location where the file is saved.
 
 SELECT 'Attestation ID', 'Name', 'Name spelling', 'Other name', 'Patronym', 'Patronym spelling', 'Other patronym', 'Other patronym spelling', 'Family name', 'Family name spelling', 'Gender', 'Is child', 'Titles', 'Possessions', 'Legal roles', 'Relations', 'Comments', 'PID', 'PID probability(0-3)/Comment', 'Museum no.', 'Date (D.M.Y King)', 'Place of writing', 'Archive', 'Publication', 'Author', 'Tablet ID'
 UNION
