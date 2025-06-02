@@ -1,0 +1,53 @@
+### To extract all the information on individuals copy the following queries one by one to MySql prompt. The name of the output file on the last line might have to be preceded by the path to the location where the file is saved.
+
+SELECT 'Attestation ID', 'Name', 'Name spelling', 'Other name', 'Patronym', 'Patronym spelling', 'Other patronym', 'Other patronym spelling', 'Family name', 'Family name spelling', 'Gender', 'Is child', 'Titles', 'Possessions', 'Legal roles', 'Relations', 'Comments', 'PID', 'PID probability(0-3)/Comment', 'Museum no.', 'Date (D.M.Y King)', 'Place of writing', 'Archive', 'Publication', 'Author', 'Tablet ID'
+UNION
+SELECT a.ATTPID,
+	a._Name,
+	a.NameSpelling,
+	a.OtherName,
+	a.Patronym,
+	a.PatronymSpelling,
+	a.Otherpatronym,
+	a.OtherpatronymSpelling,
+	a.FamilyName,
+	a.FamilyNameSpelling,
+	a.Gender,
+	IF(a.IsChild = 0, 'no', 'yes'),
+	(SELECT DISTINCT GROUP_CONCAT(IF(p.ProfAkk IS NULL, '-', CONCAT(p.ProfAkk, '/', p.ProfTransl)) SEPARATOR '; ') from s_professions p left join x_attestedprofessions ap ON ap.ProfessionID = p.ProfessionID where ap.AttPID = a.AttPID) AS 'Titles',
+	(SELECT CONCAT(
+        IF(ats.OwnsPrebend = 0, '', 'Prebend; '),
+	IF(ats.OwnsHouse = 0, '', 'House; '),
+	IF(ats.OwnsShop = 0, '', 'Shop; '),
+	IF(ats.OwnsTempleWorkshop = 0, '', 'Temple workshop; '),
+	IF(ats.OwnsGarden = 0, '', 'Garden; '),
+	IF(ats.OwnsField = 0, '', 'Field; '),
+	IF(ats.OwnsSlave = 0, '', 'Slave; '),
+	IF(ats.OwnsSlaveAgent = 0, '', 'Slave agent; '),
+	IF(ats.OwnsCattle = 0, '', 'Cattle; '),
+	IF(ats.OwnsSmallCattle = 0, '', 'Small cattle; '),
+	IF(ats.OwnsDonkeys = 0, '', 'Donkeys; '),
+	IF(ats.OwnsHorse = 0, '', 'Horse; '),
+	IF(ats.OwnsPloughOxen = 0, '', 'Plough oxen; '),
+	IF(ats.OwnsLand = 0, '', 'Land; '),
+	IF(ats.OwnsBoat = 0, '', 'Boat; '),
+        IF(ats.OwnsOther = 0, '', 'Other; '))
+	from e_attestations ats where ats.AttPID = a.AttPID) AS 'Possessions',
+	(SELECT GROUP_CONCAT(IFNULL(r.Role, '-') SEPARATOR '; ') from s_roles r left join x_attestedroles attr on r.RoleID = attr.RoleID where attr.AttPID = a.AttPID GROUP BY a.AttPID) AS 'Roles',
+	(SELECT IFNULL(GROUP_CONCAT(CONCAT(re.RelType, ' ', ats._Name, ' ', ats.PID) SEPARATOR '; '), '-') from s_relationtypes re left join x_attestedrelations atre on atre.AttRelTypeID = re.RelTypeID left join e_attestations ats on ats.AttPID = atre.AttPID2 where atre.AttPID1 = a.AttPID GROUP BY a.AttPID) as 'Relations',
+	a.comments,
+	a.PID,
+	CONCAT(a.Probability, ' /', IF(a.PIDComment = '', '-', a.PIDComment)),
+	t.MuseumNr,
+	CONCAT(CONCAT_WS('.', t._Day, t._Month, t._Year), ' ', k.King) AS 'Date',
+	l.locName,
+	IF(t.ArchiveID IS NULL, 'Not mentioned', arch.ArchiveName),
+	t.PublicationTablet,
+	t.Author,
+	t.TabletID
+from e_attestations a
+LEFT JOIN e_tablets t ON a.TabletID = t.TabletID
+LEFT JOIN s_kings k ON t.KingID = k.KingID
+LEFT JOIN s_localities l ON t.PlaceOfWritingID = l.localityID
+LEFT JOIN c_archives arch ON t.ArchiveID = arch.ArchiveID
+INTO OUTFILE 'attestations_minedProsobab.tsv';

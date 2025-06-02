@@ -1,0 +1,92 @@
+### To extract all the information on individuals copy the following queries one by one to MySql prompt. The temporary tables have to be created first. The name of the output file on the last line might have to be preceded by the path to the location where the file is saved.
+
+
+create temporary table dates select distinct a.PID, t.KingID, LPAD(IF(t._Year = '', 0, t._Year), 2, '0') AS year, LPAD(IF(t._Month = '', '0', t._Month), 2, '0') AS month, LPAD(t._Day, 2, '0') AS day from e_attestations a
+left join e_tablets t on t.TabletID = a.TabletID 
+where a.PID is not NULL 
+order by a.PID, t.KingID, year, month;
+
+create temporary table minDates select PID, min(d.KingID) as KID, King, d.year, d.month, d.day from dates d 
+inner join s_kings k on k.KingID = d.KingID 
+group by PID;
+
+create temporary table bigDates select distinct a.PID, t.KingID, LPAD(IF(t._Year = '', 0, t._Year), 2, '0') AS year, LPAD(IF(t._Month = '', '0', t._Month), 2, '0') AS month, LPAD(t._Day, 2, '0') AS day from e_attestations a
+left join e_tablets t on t.TabletID = a.TabletID 
+where a.PID is not NULL 
+order by a.PID ASC, t.KingID DESC, year DESC, month DESC;
+
+create temporary table max select PID, max(d.KingID) as KID, King, d.year, d.month, d.day from bigDates d 
+inner join s_kings k on k.KingID = d.KingID group by PID;
+
+create temporary table counts select PID, count(*) as count from e_attestations 
+where PID is not NULL 
+group by PID 
+order by PID;
+
+SET @@group_concat_max_len = 150000;
+
+create temporary table relations select a1.PID, GROUP_CONCAT(DISTINCT (CONCAT_WS(' ', rt.RelType, CONCAT_WS(', ', a2._Name, a2.PID))) SEPARATOR ';') AS Relations
+	from e_attestations a1
+	left join x_attestedrelations ar on ar.AttPID1 = a1.AttPID
+	left join s_relationtypes rt on rt.RelTypeID = ar.AttRelTypeID
+	left join e_attestations a2 on ar.AttPID2 = a2.AttPID
+	group by a1.PID
+	order by a1.PID;
+
+
+SELECT 'PID', 'Name', 'Patronym', 'Family name', 'Name language', 'Patronym language', 'Family name language', 'Name translation', 'Patronym translation', 'Family name translation', 'Gender', 'Possessions', 'Title', 'Title Sumerian', 'Title translation', '# of attestations', 'Min date (Y.M.D)', 'Max date (Y.M.D)', 'Archives', 'Cities', 'Relations', 'Family Unit', 'Author', 'Attestation ids'
+UNION
+SELECT Distinct i.PID, 
+       n._Name,
+       (select pn._Name from s_names pn where pn.NameID = i.patronym_id) AS Patronym,
+	(select fn._Name from s_names fn where fn.NameID = i.family_name_id) AS `Family name`,
+       nl.nameLang AS `Name language`,
+       (select ln.nameLang from s_namelanguage ln left join s_names nam on nam.NameLang = ln.id_nameLang where i.patronym_id = nam.NameID) AS `Patronym language`,
+	(select ln.nameLang from s_namelanguage ln left join s_names nam on nam.NameLang = ln.id_nameLang where i.family_name_id = nam.NameID) AS `Family name language`,
+	n.name_translation AS 'Name translation',
+	(select name_translation from s_names where i.patronym_id = NameID) AS 'Patronym translation',
+	(select name_translation from s_names where i.family_name_id = NameID) AS 'Family name translation',
+	IF(i.Gender="", IF(a.Gender= "", '-', a.Gender), i.Gender) AS Gender,
+	(SELECT CONCAT(
+        IF(ats.OwnsPrebend = 0, '', 'Prebend; '),
+	IF(ats.OwnsHouse = 0, '', 'House; '),
+	IF(ats.OwnsShop = 0, '', 'Shop; '),
+	IF(ats.OwnsTempleWorkshop = 0, '', 'Temple workshop; '),
+	IF(ats.OwnsGarden = 0, '', 'Garden; '),
+	IF(ats.OwnsField = 0, '', 'Field; '),
+	IF(ats.OwnsSlave = 0, '', 'Slave; '),
+	IF(ats.OwnsSlaveAgent = 0, '', 'Slave agent; '),
+	IF(ats.OwnsCattle = 0, '', 'Cattle; '),
+	IF(ats.OwnsSmallCattle = 0, '', 'Small cattle; '),
+	IF(ats.OwnsDonkeys = 0, '', 'Donkeys; '),
+	IF(ats.OwnsHorse = 0, '', 'Horse; '),
+	IF(ats.OwnsPloughOxen = 0, '', 'Plough oxen; '),
+	IF(ats.OwnsLand = 0, '', 'Land; '),
+	IF(ats.OwnsBoat = 0, '', 'Boat; '),
+        IF(ats.OwnsOther = 0, '', 'Other; '))
+	from e_attestations ats where ats.PID = i.PID GROUP BY i.PID) AS 'Possessions',
+	(select GROUP_CONCAT(DISTINCT p.ProfAkk SEPARATOR '; ') from s_professions p left join x_attestedprofessions ap on ap.ProfessionID = p.ProfessionID left join e_attestations a on a.attPID = ap.attPID where a.PID = i.PID) AS 'Title Akk.',
+	(select GROUP_CONCAT(DISTINCT p.ProfSum SEPARATOR '; ') from s_professions p left join x_attestedprofessions ap on ap.ProfessionID = p.ProfessionID left join e_attestations a on a.attPID = ap.attPID where a.PID = i.PID) AS 'Title Sum.',
+	(select GROUP_CONCAT(DISTINCT p.ProfTransl SEPARATOR '; ') from s_professions p left join x_attestedprofessions ap on ap.ProfessionID = p.ProfessionID left join e_attestations a on a.attPID = ap.attPID where a.PID = i.PID) AS 'Title Translation',
+	c.count,
+	(SELECT CONCAT(CONCAT_WS('.', day, month, year), ' ', King) from minDates min where min.PID = i.PID) AS 'Mindate',
+	(SELECT CONCAT(CONCAT_WS('.', day, month, year), ' ', King) from max where max.PID = i.PID) AS 'Maxdate',
+	(select GROUP_CONCAT(DISTINCT ar.ArchiveName SEPARATOR '; ') from c_archives ar inner join e_tablets tab ON ar.ArchiveID = tab.ArchiveID left join e_attestations at ON tab.TabletID = at.TabletID where at.PID = i.PID) AS 'Archives',
+	(SELECT GROUP_CONCAT(DISTINCT l.locName SEPARATOR '; ') from s_localities l inner join e_tablets tab ON tab.PlaceOFWritingID = l.localityID left join e_attestations at ON tab.TabletID = at.TabletID where at.PID = i.PID) AS 'Cities',
+	IF(r.Relations = '', '-', r.relations),
+	f.FamilyUnitName,
+	i.Author,
+	(SELECT GROUP_CONCAT(DISTINCT att.AttPID SEPARATOR '; ') from e_attestations att where att.PID = i.PID) AS 'Atts'
+FROM c_individuals i
+LEFT JOIN s_names n ON n.nameID = i._name_id
+LEFT JOIN e_attestations a ON i.PID = a.PID
+LEFT JOIN s_namelanguage nl ON n.NameLang = nl.id_nameLang
+LEFT JOIN x_attestedprofessions ap ON a.attPID = ap.attPID
+LEFT JOIN s_professions p ON ap.ProfessionID = p.ProfessionID
+LEFT JOIN counts c ON c.PID = i.PID
+LEFT JOIN e_tablets t ON a.TabletID = t.TabletID
+LEFT JOIN relations r ON r.PID = i.PID
+LEFT JOIN c_archives ar ON ar.ArchiveID = t.ArchiveID
+LEFT JOIN c_familyunits f ON f.FamilyUnitID = ar.FamilyUnitID
+INTO OUTFILE 'individuals_minedProsobab.tsv';
+
