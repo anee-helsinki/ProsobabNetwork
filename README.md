@@ -9,7 +9,7 @@ CREATE DATABASE DB
 ```
 Then from the command line we inserted the dump into the new database:
 ```Bash
-mysql -u <user> -p DB < include/prosobab-dump-2022-06-03.sql
+mysql -u <user> -p DB < prosobab-dump-2022-06-03.sql
 ```
 The password for the database in DB.
 
