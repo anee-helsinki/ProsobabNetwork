@@ -1,4 +1,4 @@
-#### The data extracted from the Prosobab database dumb
+#### The data extracted from the Prosobab database dump
 
 mindedProsobab.xlsx contains three spreadsheets:
 - **Individual** persons with all the information in the database + all the attestations (ids) of the individual in texts
