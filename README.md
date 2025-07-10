@@ -18,7 +18,7 @@ From the MySql database, we extracted all persons, their attestations in documen
 - Documents with all the information in the database + all the attestations (ids) of individuals in the document
 - The attestation of individuals (with ids) in documents (with ids) with information on that occasion.
 
-The tables are also available as separate tsv-files.
+The tables are also available as separate tsv-files in folder ProsobabData.
 
 We also extracted networks with...
 
