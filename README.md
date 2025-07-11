@@ -2,11 +2,9 @@
 
 This repository contains the network of people and documents mined from the database dump of The Prosobab - an open access prosopography of Babylonia in the Neo-Babylonian and Persian periods (c. 620-330 BCE) https://prosobab.leidenuniv.nl/index.php. The database was created in a ERC Consolidator Grant project at the University of Leiden. The database can be browsed online but, as it is a university project, the continuance of the the site cannot be guaranteed. 
 
-A dump of the SQL database was published in DANS  https://doi.org/10.17026/dans-zvn-eece.
-
-From the MySql database, we extracted all persons, their attestations in documents, and the documents. We publish here three spreadsheets in a xlsx-file:
-- Individual persons with all the information in the database + all the attestations (ids) of the individual in texts
+A dump of Prosobab's relational SQL database was published in DANS  https://doi.org/10.17026/dans-zvn-eece. From the database, we extracted all persons, their attestations in documents, and the documents. We publish here three spreadsheets in a xlsx-file:
 - Documents with all the information in the database + all the attestations (ids) of individuals in the document
+- Individual persons with all the information in the database + all the attestations (ids) of the individual in texts
 - The attestation of individuals (with ids) in documents (with ids) with information on that occasion.
 
 The tables are also available as separate tsv-files in folder ProsobabData.
