@@ -1,0 +1,53 @@
+Adoptee
+Adopter
+Parent who gives person into adoption
+Apprentice
+Apprentice giver
+Trainer of a profession
+Obligee
+Obligor
+Judge
+Litigant
+Defendant
+Plaintiff
+Person to whom object is deposited
+Person who deposits object
+Deponent
+Person to whom deposition is made
+Person about whom a deposition is made
+Heir
+Testator
+Exchanger
+Donee
+Donor
+Lessee
+Lessor
+Creditor
+Debtor
+Manumitter
+Manumitted slave
+Bride
+Bride’s agent
+Groom
+Groom’s agent
+Oath taker
+Person to whom oath is sworn
+Business partner
+Business partner, acting
+Business partner, investing
+Prebend-giver
+Prebend-holder
+Prebend-performer
+Creditor
+Debtor
+Buyer
+Seller
+Payer
+Recipient
+Person who closes/settles an account
+Summoner
+Person to be summoned
+Testifier
+Guarantor
+Employee
+Employer
