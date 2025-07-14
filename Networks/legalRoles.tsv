@@ -1,0 +1,623 @@
+source	target	relation	source role	target role	tabletID	museum Nr	excavation Nr	publication	archive	text type	subtype	place of writing	date	reign
+P00005	P01969	obligee > obligor	obligee	obligor	T00003	BM 30233		Abraham 2004, no. 2	Egibi Nūr-Sîn	Legal document	bond	Babylon	7.13.31 Darius I	 Darius I
+P00009	P01927	employer > employee	employer	employee	T00013	BM 30274		Abraham 2004, no. 8	Egibi Nūr-Sîn	Legal document	work contract	Babylon	13.4.24 Darius I	 Darius I
+P25668	P23721	employer > employee	employer	employee	T00014	BM 94638		Waerzeggers 2010, no. 3	Ahiya’ūtu	Legal document	work contract	Borsippa	14.11. Darius I	 Darius I
+P21983	P21958	testator > heir	testator	heir	T00027	BM 26498		Waerzeggers 2010, no. 7	Ilia A+B	Legal document	inheritance-related	Borsippa	.13.02 Nabonidus	 Nabonidus
+P21983	P21961	testator > heir	testator	heir	T00027	BM 26498		Waerzeggers 2010, no. 7	Ilia A+B	Legal document	inheritance-related	Borsippa	.13.02 Nabonidus	 Nabonidus
+P00005	P29427	addressee > mentioned in letter	addressee	mentioned in letter	T00083	BM 31416		Abraham 2004, no. 47	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P29443	addressee > mentioned in letter	addressee	mentioned in letter	T00083	BM 31416		Abraham 2004, no. 47	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P25287	P00005	addressee > mentioned in letter	addressee	mentioned in letter	T00084	BM 31438		Abraham 2004, no. 48	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P26431	P00005	sender > mentioned in letter	sender	mentioned in letter	T00084	BM 31438		Abraham 2004, no. 48	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P11456	P13024	groom > bride’s agent	groom	bride’s agent	T00101	HS 445		Joannès 1989, pp. 165-166	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Legal document	receipt	Borsippa	24.2.6 Nabonidus	 Nabonidus
+P13788	P14337	business partner, investing > business partner	business partner, investing	business partner	T00104	BM 74673		Waerzeggers 2014, no. 30	Ṣāhit-ginê A	Legal document	partnership, dissolution	Sippar	9.9.3 Darius I	 Darius I
+P10637	P11141	groom > bride’s agent	groom	bride’s agent	T00107	HS 446		Joannès 1989, pp. 166-168	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Legal document	marriage agreement	Borsippa	7.11.28 Darius I	 Darius I
+P11789	P11141	donor > donee	donor	donee	T00116	HS 450		Joannès 1989, p. 169	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Legal document	gift	Borsippa	7.10.0 Nebuchadnezzar III	 Nebuchadnezzar III
+P12324	P11399	addressee > mentioned in letter	addressee	mentioned in letter	T00129	HS 702		Hackl, Jursa and Schmidl 2014, no. 113	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P12324	P11459	addressee > mentioned in letter	addressee	mentioned in letter	T00129	HS 702		Hackl, Jursa and Schmidl 2014, no. 113	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P13148	P11399	sender > mentioned in letter	sender	mentioned in letter	T00129	HS 702		Hackl, Jursa and Schmidl 2014, no. 113	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P13148	P11459	sender > mentioned in letter	sender	mentioned in letter	T00129	HS 702		Hackl, Jursa and Schmidl 2014, no. 113	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P06118	P06097	employer > employee	employer	employee	T00132	BM 79208		Waerzeggers 2014, no. 174	Ṣāhit-ginê A	Legal document	work contract	Sippar	11.6.1 Xerxes I	 Xerxes I
+P14723	P06097	employer > employee	employer	employee	T00132	BM 79208		Waerzeggers 2014, no. 174	Ṣāhit-ginê A	Legal document	work contract	Sippar	11.6.1 Xerxes I	 Xerxes I
+P12324	P13664	addressee > mentioned in letter	addressee	mentioned in letter	T00133	Bodleian A 175		Hackl, Jursa and Schmidl 2014, no. 114	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	business-related letter	Not mentioned	NN	NN
+P11981	P13664	sender > mentioned in letter	sender	mentioned in letter	T00133	Bodleian A 175		Hackl, Jursa and Schmidl 2014, no. 114	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	business-related letter	Not mentioned	NN	NN
+P12462	P12213	addressee > mentioned in letter	addressee	mentioned in letter	T00138	HS 704		Hackl, Jursa and Schmidl 2014,  no. 118	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P12462	P14389	addressee > mentioned in letter	addressee	mentioned in letter	T00138	HS 704		Hackl, Jursa and Schmidl 2014,  no. 118	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P12065	P12213	sender > mentioned in letter	sender	mentioned in letter	T00138	HS 704		Hackl, Jursa and Schmidl 2014,  no. 118	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P12065	P14389	sender > mentioned in letter	sender	mentioned in letter	T00138	HS 704		Hackl, Jursa and Schmidl 2014,  no. 118	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P12462	P11441	addressee > mentioned in letter	addressee	mentioned in letter	T00141	Bodleian A 135		Hackl, Jursa and Schmidl 2014, no. 119	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	business-related letter	Not mentioned	NN	NN
+P12064	P11441	sender > mentioned in letter	sender	mentioned in letter	T00141	Bodleian A 135		Hackl, Jursa and Schmidl 2014, no. 119	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	business-related letter	Not mentioned	NN	NN
+P12462	P11519	addressee > mentioned in letter	addressee	mentioned in letter	T00143	L 4732		Hackl, Jursa and Schmidl 2014, no. 120	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P12462	P13810	addressee > mentioned in letter	addressee	mentioned in letter	T00143	L 4732		Hackl, Jursa and Schmidl 2014, no. 120	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P14445	P11519	sender > mentioned in letter	sender	mentioned in letter	T00143	L 4732		Hackl, Jursa and Schmidl 2014, no. 120	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P14445	P13810	sender > mentioned in letter	sender	mentioned in letter	T00143	L 4732		Hackl, Jursa and Schmidl 2014, no. 120	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Correspondence	letter	Not mentioned	NN	NN
+P00050	P01654	donor > donee	donor	donee	T00159	VAT 91		Baker 2004, no. 18a	Nappāhu	Legal document	gift	Babylon	06.5. Nabonidus	 Nabonidus
+P13788	P14813	groom > bride’s agent	groom	bride’s agent	T00173	BM 74346		Waerzeggers 2014, no. 3	Ṣāhit-ginê A	Legal document	"dowry promise; exchange"	Sippar	6.13.8 Nabonidus	 Nabonidus
+P05893	P13156	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T00207	BM 64245+		Waerzeggers 2014, no. 22	Ṣāhit-ginê A	Legal document	oath	Sippar	25.8.2 Darius I	 Darius I
+P00740	P01651	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T00228	VAT 118		Baker 2004, no. 33	Nappāhu	Legal document	oath	Babylon	19.9.05 Cambyses	 Cambyses
+P05893	P14675	obligee > obligor	obligee	obligor	T00267	BM 74629		Waerzeggers 2014, no. 47	Ṣāhit-ginê A	Legal document	bond	Not mentioned	10.14.5 Darius I	 Darius I
+P01654	P00011	donor > donee	donor	donee	T00278	LB 1326		Baker 2004, no. 19a	Nappāhu	Legal document	"gift; inheritance-related"	Babylon	20.13.00 Cambyses	 Cambyses
+P01654	P00713	donor > donee	donor	donee	T00278	LB 1326		Baker 2004, no. 19a	Nappāhu	Legal document	"gift; inheritance-related"	Babylon	20.13.00 Cambyses	 Cambyses
+P01412	P03061	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T00318	VAT 352		Baker 2004, no. 38	Nappāhu	Legal document	prebendary work contract	Babylon	07.13.12 Darius I	 Darius I
+P01412	P03835	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T00327	VAT 358		Baker 2004, no. 39a	Nappāhu	Legal document	prebendary work contract	Babylon	28.2.19 Darius I	 Darius I
+P00740	P01594	obligee > obligor	obligee	obligor	T00375	VAT 123		Baker 2004, no. 49a	Nappāhu	Legal document	bond	Babylon	20.5.01 Bardia	 Bardia
+P03400	P01400	adopter > adoptee	adopter	adoptee	T00399	BM 77344		Baker 2004, no. 54	Nappāhu	Legal document	adoption	Babylon	10.9.03 Cyrus	 Cyrus
+P02980	P01400	parent who gives person into adoption > adoptee	parent who gives person into adoption	adoptee	T00399	BM 77344		Baker 2004, no. 54	Nappāhu	Legal document	adoption	Babylon	10.9.03 Cyrus	 Cyrus
+P03376	P01400	parent who gives person into adoption > adoptee	parent who gives person into adoption	adoptee	T00399	BM 77344		Baker 2004, no. 54	Nappāhu	Legal document	adoption	Babylon	10.9.03 Cyrus	 Cyrus
+P01457	P01636	testator > heir	testator	heir	T00408	BM 92793		Baker 2004, no. 59a	Nappāhu	Legal document	testament	Babylon	16.4.14 Nabonidus	 Nabonidus
+P01457	P01639	testator > heir	testator	heir	T00408	BM 92793		Baker 2004, no. 59a	Nappāhu	Legal document	testament	Babylon	16.4.14 Nabonidus	 Nabonidus
+P01457	P03772	testator > heir	testator	heir	T00408	BM 92793		Baker 2004, no. 59a	Nappāhu	Legal document	testament	Babylon	16.4.14 Nabonidus	 Nabonidus
+P01457	P05272	testator > heir	testator	heir	T00408	BM 92793		Baker 2004, no. 59a	Nappāhu	Legal document	testament	Babylon	16.4.14 Nabonidus	 Nabonidus
+P18316	P26250	employer > employee	employer	employee	T00426	BM 94728		Waerzeggers 2010, no. 9	Ilia A+B	Legal document	work contract	Borsippa	19.10.11 Nabonidus	 Nabonidus
+P18316	P22615	employer > employee	employer	employee	T00429	BM 94738		Waerzeggers 2010, no. 11	Ilia A+B	Legal document	work contract	Borsippa	14.9.16 Nabonidus	 Nabonidus
+P22005	P21078	donor > donee	donor	donee	T00431	HS 448		Waerzeggers 2010, no. 13	Ilia A+B	Legal document	gift	Borsippa	24.0.2 Cambyses	 Cambyses
+P21983	P18316	donor > donee	donor	donee	T00432	BM 26569		Waerzeggers 2010, no. 14	Ilia A+B	Legal document	"gift; inheritance-related"	Borsippa	5.3.3 Cambyses	 Cambyses
+P21995	P18316	donor > donee	donor	donee	T00432	BM 26569		Waerzeggers 2010, no. 14	Ilia A+B	Legal document	"gift; inheritance-related"	Borsippa	5.3.3 Cambyses	 Cambyses
+P21066	P22010	employer > employee	employer	employee	T00479	BM 17691		Waerzeggers 2010, no. 16	Ilia A+B	Legal document	work contract	Borsippa	15.14.6 Cyrus	 Cyrus
+P22010	P18316	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T00480	BM 102033		Waerzeggers 2010, no. 17	Ilia A+B	Legal document	prebendary work contract	Borsippa	24.1.9 Cyrus	 Cyrus
+P22061	P18316	donor > donee	donor	donee	T00482	BM 82695		Waerzeggers 2010, no. 19	Ilia A+B	Legal document	"gift; inheritance-related"	Borsippa	.0. Cambyses	 Cambyses
+P13562	P12153	trainer of a profession > apprentice	trainer of a profession	apprentice	T00552	HS 658		Joannès 1989, p. 225	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Legal document	apprenticeship	Borsippa	19.6. Nabonidus	 Nabonidus
+P18316	P22561	employer > employee	employer	employee	T00568	BM 109875		Waerzeggers 2010, no. 26	Ilia A+B	Legal document	prebendary work contract	Borsippa	12.2.10 Darius I	 Darius I
+P18316	P22864	employer > employee	employer	employee	T00568	BM 109875		Waerzeggers 2010, no. 26	Ilia A+B	Legal document	prebendary work contract	Borsippa	12.2.10 Darius I	 Darius I
+P25552	P26189	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T00602	BM 103474		Waerzeggers 2010, no. 49	Balāṭu, slave of Rēmūt-Bēl	Legal document	prebendary work contract	Borsippa	17.9.6 Darius I	 Darius I
+P23912	P23903	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T00659	BM 29441		Waerzeggers 2010, no. 50	Ilšu-abūšu B	Legal document	prebendary work contract	Borsippa	11.6.01 Cyrus	 Cyrus
+P25714	P18559	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T00697	BM 87271		Waerzeggers 2010, no. 64	Lā-kuppuru	Legal document	prebendary work contract	Borsippa	13.9.35 Darius I	 Darius I
+P24874	P26255	employer > employee	employer	employee	T00698	BM 82664		Waerzeggers 2010, no. 65	Mannu-gērûšu	Legal document	settlement of accounts	Not mentioned	05.13.24 Darius I	 Darius I
+P24874	P27170	employer > employee	employer	employee	T00698	BM 82664		Waerzeggers 2010, no. 65	Mannu-gērûšu	Legal document	settlement of accounts	Not mentioned	05.13.24 Darius I	 Darius I
+P05893	P14505	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T00739	BM 74558		Waerzeggers 2014, no. 137	Ṣāhit-ginê A	Legal document	oath	Sippar	06.11.28 Darius I	 Darius I
+P28665	P28693	donor > donee	donor	donee	T00743	BM 109864		Waerzeggers 2010, no. 71	Unknown Borsippa	Legal document	gift	Borsippa	30.13.10 Nabonidus	 Nabonidus
+P13874	P05893	bride > groom’s agent	bride	groom’s agent	T00746	BM 64177		Waerzeggers 2014, no. 139	Ṣāhit-ginê A	Legal document	marriage agreement	Babylon	.0. Darius I	 Darius I
+P13164	P05893	bride’s agent > groom’s agent	bride’s agent	groom’s agent	T00746	BM 64177		Waerzeggers 2014, no. 139	Ṣāhit-ginê A	Legal document	marriage agreement	Babylon	.0. Darius I	 Darius I
+P14564	P05893	bride’s agent > groom’s agent	bride’s agent	groom’s agent	T00746	BM 64177		Waerzeggers 2014, no. 139	Ṣāhit-ginê A	Legal document	marriage agreement	Babylon	.0. Darius I	 Darius I
+P05959	P13164	groom > bride’s agent	groom	bride’s agent	T00746	BM 64177		Waerzeggers 2014, no. 139	Ṣāhit-ginê A	Legal document	marriage agreement	Babylon	.0. Darius I	 Darius I
+P05959	P14564	groom > bride’s agent	groom	bride’s agent	T00746	BM 64177		Waerzeggers 2014, no. 139	Ṣāhit-ginê A	Legal document	marriage agreement	Babylon	.0. Darius I	 Darius I
+P25805	P26050	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T00752	BM 29453		Waerzeggers 2010, no. 73	Bēlia’u	Legal document	prebendary work contract	Broken/Unclear	17.12.08 Nebuchadnezzar II	 Nebuchadnezzar II
+P24530	P22354	donor > donee	donor	donee	T00754	BM 96286		Waerzeggers 2010, no. 75	Bēlia’u	Legal document	annulment	Borsippa	30.13.03 Darius I	 Darius I
+P25592	P18349	donor > donee	donor	donee	T00756	BM 96163		Waerzeggers 2010, no. 77	Bēlia’u	Legal document	gift	Borsippa	01.12.04 Darius I	 Darius I
+P25170	P25637	employer > employee	employer	employee	T00757	BM 29400		Waerzeggers 2010, no. 78	Bēlia’u	Legal document	work contract	Borsippa	29.8.05 Darius I	 Darius I
+P18695	P27692	employer > employee	employer	employee	T00758	BM 96226		Waerzeggers 2010, no. 79	Bēlia’u	Legal document	work contract	Broken/Unclear	.0. Darius I	 Darius I
+P18349	P25601	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T00761	BM 96301		Waerzeggers 2010, no. 82	Bēlia’u	Legal document	oath	Borsippa	28.3.09 Darius I	 Darius I
+P18349	P25663	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T00762	BM 96231		Waerzeggers 2010, no. 83	Bēlia’u	Legal document	oath	Borsippa	23.8.09 Darius I	 Darius I
+P05893	P15081	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T00809	BM 64230		Waerzeggers 2014, no. 144	Ṣāhit-ginê A	Legal document	oath	Broken/Unclear	.0. Darius I	 Darius I
+P05893	P15077	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T00817	BM 64209		Waerzeggers 2014, no. 149	Ṣāhit-ginê A	Legal document	oath	Broken/Unclear	.0. Darius I	 Darius I
+P05893	P15083	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T00822	BM 84354		Waerzeggers 2014, no. 154	Ṣāhit-ginê A	Legal document	oath	Broken/Unclear	.0. Darius I	 Darius I
+P05959	P13438	employer > employee	employer	employee	T00834	BM 74630		Waerzeggers 2014, no. 163	Ṣāhit-ginê A	Legal document	work contract	Sippar	20.9.33 Darius I	 Darius I
+P05959	P14588	obligee > obligor	obligee	obligor	T00838	Peek 12		Waerzeggers 2014, no. 165	Ṣāhit-ginê A	Legal document	summons	Sippar	24.6.34 Darius I	 Darius I
+P13973	P14077	addressee > mentioned in letter	addressee	mentioned in letter	T00877	BM 79582		Waerzeggers 2014, no. 183	Ṣāhit-ginê A	Correspondence	letter	Not mentioned	NN	NN
+P13973	P15174	addressee > mentioned in letter	addressee	mentioned in letter	T00877	BM 79582		Waerzeggers 2014, no. 183	Ṣāhit-ginê A	Correspondence	letter	Not mentioned	NN	NN
+P05959	P14077	sender > mentioned in letter	sender	mentioned in letter	T00877	BM 79582		Waerzeggers 2014, no. 183	Ṣāhit-ginê A	Correspondence	letter	Not mentioned	NN	NN
+P05959	P15174	sender > mentioned in letter	sender	mentioned in letter	T00877	BM 79582		Waerzeggers 2014, no. 183	Ṣāhit-ginê A	Correspondence	letter	Not mentioned	NN	NN
+P13786	P13926	donor > donee	donor	donee	T00955	BM 42348		Jursa 1999, pp. 148f.	Šangû-Šamaš A	Legal document	gift	Broken/Unclear	22.4.34 Darius I	 Darius I
+P14228	P14801	obligee > obligor	obligee	obligor	T00982	BM 42396		Jursa 1999, p. 172	Šangû-Šamaš A	Legal document	bond	Broken/Unclear	21.13.09 Nabonidus	 Nabonidus
+P14923	P14801	obligee > obligor	obligee	obligor	T00982	BM 42396		Jursa 1999, p. 172	Šangû-Šamaš A	Legal document	bond	Broken/Unclear	21.13.09 Nabonidus	 Nabonidus
+P18349	P26209	employer > employee	employer	employee	T00992	BM 29110		Waerzeggers 2010, no. 89	Bēlia’u	Legal document	work contract	Borsippa	15.3.12 Darius I	 Darius I
+P18349	P25602	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T00993	BM 28918		Waerzeggers 2010, no. 90	Bēlia’u	Legal document	prebendary work contract	Borsippa	28.14.13 Darius I	 Darius I
+P18349	P25659	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T00993	BM 28918		Waerzeggers 2010, no. 90	Bēlia’u	Legal document	prebendary work contract	Borsippa	28.14.13 Darius I	 Darius I
+P18349	P23056	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T00995	BM 29115		Waerzeggers 2010, no. 92	Bēlia’u	Legal document	prebendary work contract	Broken/Unclear	.0.19 Darius I	 Darius I
+P13567	P19689	trainer of a profession > apprentice	trainer of a profession	apprentice	T01038	BM 41442		Abraham 2004, no. 84	Egibi Nūr-Sîn	Legal document	apprenticeship	Babylon	15.13.26 Darius I	 Darius I
+P00005	P25317	obligee > obligor	obligee	obligor	T01051	BM 41449		Abraham 2004, no. 85	Egibi Nūr-Sîn	Legal document	bond	Babylon	3.13. Darius I	 Darius I
+P00005	P16371	addressee > mentioned in letter	addressee	mentioned in letter	T01056	BM 33077		Abraham 2004, no. 88	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P20055	addressee > mentioned in letter	addressee	mentioned in letter	T01056	BM 33077		Abraham 2004, no. 88	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P28968	addressee > mentioned in letter	addressee	mentioned in letter	T01056	BM 33077		Abraham 2004, no. 88	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P26732	P16371	sender > mentioned in letter	sender	mentioned in letter	T01056	BM 33077		Abraham 2004, no. 88	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P26732	P20055	sender > mentioned in letter	sender	mentioned in letter	T01056	BM 33077		Abraham 2004, no. 88	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P26732	P28968	sender > mentioned in letter	sender	mentioned in letter	T01056	BM 33077		Abraham 2004, no. 88	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P00551	employer > employee	employer	employee	T01066	BM 30787		Abraham 2004, no. 94	Egibi Nūr-Sîn	Legal document	work contract	Babylon	7.3.5 Darius I	 Darius I
+P05890	P14887	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T01165	BM 42525		Jursa 1999, pp. 193f.	Šangû-Šamaš A	Legal document	prebendary work contract	Sippar	.0.06 Darius I	 Darius I
+P06013	P05890	prebend-giver > prebend-performer	prebend-giver	prebend-performer	T01178	BM 42551+		Jursa 1999, pp. 198f.	Šangû-Šamaš A	Legal document	settlement of accounts	Sippar	26.8.19 Darius I	 Darius I
+P20627	P20623	groom > bride’s agent	groom	bride’s agent	T01676	BM 28865		Waerzeggers 2010, no. 116	Ibnāya A	Legal document	dowry promise	Borsippa	14.0.07 Nabonidus	 Nabonidus
+P06757	P06847	person who deposits object > person to whom object is deposited	person who deposits object	person to whom object is deposited	T01697	BM 78064		Sandowicz 2009, p. 16 ff.	Esagilāya B	Legal document	dispute-related	Babylon	11.3.27 Nebuchadnezzar II	 Nebuchadnezzar II
+P20537	P20515	donor > donee	donor	donee	T01724	BM 25670		Waerzeggers 2010, no. 127	Ibnāya B-C-D	Legal document	gift	Borsippa	20.9.1 Cambyses	 Cambyses
+P02830	P02071	bride > groom’s agent	bride	groom’s agent	T01921	BM 32139		Wunsch 1993b, no. 13	Egibi Nūr-Sîn	Legal document	marriage-related	Babylon	13.5.34 Nebuchadnezzar II	 Nebuchadnezzar II
+P02677	P02071	bride’s agent > groom’s agent	bride’s agent	groom’s agent	T01921	BM 32139		Wunsch 1993b, no. 13	Egibi Nūr-Sîn	Legal document	marriage-related	Babylon	13.5.34 Nebuchadnezzar II	 Nebuchadnezzar II
+P00036	P02677	groom > bride’s agent	groom	bride’s agent	T01921	BM 32139		Wunsch 1993b, no. 13	Egibi Nūr-Sîn	Legal document	marriage-related	Babylon	13.5.34 Nebuchadnezzar II	 Nebuchadnezzar II
+P10637	P11702	groom > bride’s agent	groom	bride’s agent	T01939	NBC 8410		Joannès 1989, pp. 355-256	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Legal document	marriage agreement	Borsippa	30.13.18 Darius I	 Darius I
+P12462	P13236	employer > employee	employer	employee	T02083	L 1632		Joannès 1989, p. 236	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Legal document	work contract	Borsippa	22.9.40 Nebuchadnezzar II	 Nebuchadnezzar II
+P12462	P13063	employer > employee	employer	employee	T02104	L 1662		Joannès 1989, pp. 250-251	Ea-ilūtu-bāni, Ilī-bāni, Nanāhu	Legal document	work contract	Borsippa	03.3.06 Nabonidus	 Nabonidus
+P02587	P20100	donor > donee	donor	donee	T02203	BM 33070		Wunsch 1993b, no. 19	Egibi Nūr-Sîn	Legal document	gift	Babylon	24.8.35 Nebuchadnezzar II	 Nebuchadnezzar II
+P00036	P06187	obligee > obligor	obligee	obligor	T02347	BM 31241		Wunsch 1993b, no. 28	Egibi Nūr-Sîn	Legal document	bond	Babylon	23.4.38 Nebuchadnezzar II	 Nebuchadnezzar II
+P00036	P28970	obligee > obligor	obligee	obligor	T02350	BM 30471		Wunsch 1993b, no. 29	Egibi Nūr-Sîn	Administrative document	memorandum	Not mentioned	16.1.39 Nebuchadnezzar II	 Nebuchadnezzar II
+P15272	P15276	adopter > adoptee	adopter	adoptee	T02419	Unknown (IM)	U. 17243, 1	UET 4, 1	Gallābu (Ur)	Legal document	adoption	Ur	23.1.09 Artaxerxes III	 Artaxerxes III
+P15272	P15277	adopter > adoptee	adopter	adoptee	T02419	Unknown (IM)	U. 17243, 1	UET 4, 1	Gallābu (Ur)	Legal document	adoption	Ur	23.1.09 Artaxerxes III	 Artaxerxes III
+P09604	P04372	donor > donee	donor	donee	T02506	BM 35675		Wunsch 2003, no. 24	Rabâ-ša-Ninurta	Legal document	gift	Broken/Unclear	NN	NN
+P09604	P09481	donor > donee	donor	donee	T02506	BM 35675		Wunsch 2003, no. 24	Rabâ-ša-Ninurta	Legal document	gift	Broken/Unclear	NN	NN
+P02677	P06214	obligee > obligor	obligee	obligor	T02779	BM 33082		Wunsch 1993b, no. 44	Egibi Nūr-Sîn	Legal document	bond	Bīt-Bēl-rēmanni	6.0.41 Nebuchadnezzar II	 Nebuchadnezzar II
+P08008	P08245	employer > employee	employer	employee	T03055	BM 54168		Nbk 202	Dullupu	Legal document	work contract	Cutha	26.5.29 Nebuchadnezzar II	 Nebuchadnezzar II
+P08008	P08140	obligee > obligor	obligee	obligor	T03106	BM 54088		Jursa 2015, p. 274	Dullupu	Legal document	bond	Broken/Unclear	NN	NN
+P06733	P10117	donor > donee	donor	donee	T03319	BNUS 473		Joannès 1980, no. 1	Ea-eppēš-ilī B (Babylon)	Legal document	gift	Babylon	28.8.08 Nabonidus	 Nabonidus
+P06733	P10126	donor > donee	donor	donee	T03319	BNUS 473		Joannès 1980, no. 1	Ea-eppēš-ilī B (Babylon)	Legal document	gift	Babylon	28.8.08 Nabonidus	 Nabonidus
+P06733	P11276	donor > donee	donor	donee	T03319	BNUS 473		Joannès 1980, no. 1	Ea-eppēš-ilī B (Babylon)	Legal document	gift	Babylon	28.8.08 Nabonidus	 Nabonidus
+P22437	P22438	donor > donee	donor	donee	T03463	BM 26488		Waerzeggers 2010, no. 135	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	20.4.09 Nabopolassar	 Nabopolassar
+P27489	P22432	obligee > obligor	obligee	obligor	T03541	BM 82748		Waerzeggers 2010, no. 138	Rē’i-alpi (Borsippa)	Legal document	bond	Borsippa	07.12.18 Nebuchadnezzar II	 Nebuchadnezzar II
+P22444	P21081	donor > donee	donor	donee	T03565	BM 82712		Waerzeggers 2010, no. 144	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	26.9.04 Nabonidus	 Nabonidus
+P12799	P22469	adopter > adoptee	adopter	adoptee	T03598	BM 26538		Waerzeggers 2010, no. 152	Rē’i-alpi (Borsippa)	Legal document	adoption	Borsippa	11.10.08 Nabonidus	 Nabonidus
+P22448	P22469	parent who gives person into adoption > adoptee	parent who gives person into adoption	adoptee	T03598	BM 26538		Waerzeggers 2010, no. 152	Rē’i-alpi (Borsippa)	Legal document	adoption	Borsippa	11.10.08 Nabonidus	 Nabonidus
+P12799	P22448	donor > donee	donor	donee	T03658	BM 85229		Waerzeggers 2010, no. 155	Rē’i-alpi (Borsippa)	Legal document	"gift; prebendary work contract"	Borsippa	02.2.16 Nabonidus	 Nabonidus
+P22492	P22448	donor > donee	donor	donee	T03667	BM 94641		Waerzeggers 2010, no. 156	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	08.1.02 Cyrus	 Cyrus
+P12799	P22448	donor > donee	donor	donee	T03676	BM 13150		Waerzeggers 2010, no. 158	Rē’i-alpi (Borsippa)	Legal document	sustenance contract	Borsippa	02.2.05 Cyrus	 Cyrus
+P22516	P22448	donor > donee	donor	donee	T03706	BM 82714		Waerzeggers 2010, no. 164	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	05.3.06 Cambyses	 Cambyses
+P22526	P22448	donor > donee	donor	donee	T03724	BM 82772		Waerzeggers 2010, no. 170	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	27.4.01 Nebuchadnezzar IV	 Nebuchadnezzar IV
+P22445	P22448	donor > donee	donor	donee	T03730	BM 94712		Waerzeggers 2010, no. 172	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	20.10.01 Darius I	 Darius I
+P09685	P10075	addressee > mentioned in letter	addressee	mentioned in letter	T03766	BM 77356		MacGinnis 1996, no. 11	Ea-eppēš-ilī A (Babylon)	Correspondence	letter	Madgalu	13.13.02 Cambyses	 Cambyses
+P09685	P10871	addressee > mentioned in letter	addressee	mentioned in letter	T03766	BM 77356		MacGinnis 1996, no. 11	Ea-eppēš-ilī A (Babylon)	Correspondence	letter	Madgalu	13.13.02 Cambyses	 Cambyses
+P09685	P11012	addressee > mentioned in letter	addressee	mentioned in letter	T03766	BM 77356		MacGinnis 1996, no. 11	Ea-eppēš-ilī A (Babylon)	Correspondence	letter	Madgalu	13.13.02 Cambyses	 Cambyses
+P10691	P10075	sender > mentioned in letter	sender	mentioned in letter	T03766	BM 77356		MacGinnis 1996, no. 11	Ea-eppēš-ilī A (Babylon)	Correspondence	letter	Madgalu	13.13.02 Cambyses	 Cambyses
+P10691	P10871	sender > mentioned in letter	sender	mentioned in letter	T03766	BM 77356		MacGinnis 1996, no. 11	Ea-eppēš-ilī A (Babylon)	Correspondence	letter	Madgalu	13.13.02 Cambyses	 Cambyses
+P10691	P11012	sender > mentioned in letter	sender	mentioned in letter	T03766	BM 77356		MacGinnis 1996, no. 11	Ea-eppēš-ilī A (Babylon)	Correspondence	letter	Madgalu	13.13.02 Cambyses	 Cambyses
+P22562	P22469	donor > donee	donor	donee	T03784	BM 26632		Waerzeggers 2010, no. 175	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	08.5.02 Darius I	 Darius I
+P22448	P22469	donor > donee	donor	donee	T03814	BM 26494		Waerzeggers 2010, no. 183	Rē’i-alpi (Borsippa)	Legal document	annulment	Borsippa	16.10.07 Darius I	 Darius I
+P22448	P22529	donor > donee	donor	donee	T03814	BM 26494		Waerzeggers 2010, no. 183	Rē’i-alpi (Borsippa)	Legal document	annulment	Borsippa	16.10.07 Darius I	 Darius I
+P26032	P22469	litigant > defendant	litigant	defendant	T03847	BM 26572		Waerzeggers 2010, no. 187	Rē’i-alpi (Borsippa)	Legal document	dispute-related	Borsippa	16.11.10 Darius I	 Darius I
+P22536	P20987	donor > donee	donor	donee	T03949	BM 26505		Waerzeggers 2010, no. 198	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	15.6.34 Darius I	 Darius I
+P22536	P22578	donor > donee	donor	donee	T03949	BM 26505		Waerzeggers 2010, no. 198	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	15.6.34 Darius I	 Darius I
+P22518	P26001	donor > donee	donor	donee	T04045	BM 26516		Waerzeggers 2010, no. 208	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	NN	NN
+P24049	P18316	plaintiff > defendant	plaintiff	defendant	T04192	BM 17725		unpublished	Ilia A+B	Legal document	deposition	Borsippa	25.11.01 Cambyses	 Cambyses
+P27520	P18265	litigant > defendant	litigant	defendant	T04255	BM 27855		unpublished	Rē’i-alpi (Borsippa)	Legal document	dispute-related	Borsippa	23.1.16 Nabopolassar	 Nabopolassar
+P22673	P21080	donor > donee	donor	donee	T04327	BM 26487		unpublished	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	21.9.22 Nebuchadnezzar II	 Nebuchadnezzar II
+P22673	P21089	donor > donee	donor	donee	T04327	BM 26487		unpublished	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	21.9.22 Nebuchadnezzar II	 Nebuchadnezzar II
+P06241	P09010	employer > employee	employer	employee	T04330	BM 31072		Wunsch 1993b, no. 136	Egibi Nūr-Sîn	Legal document	work contract	Borsippa	21.12.5 Nabonidus	 Nabonidus
+P22686	P24621	donor > donee	donor	donee	T04339	BM 82655		unpublished	Rē’i-alpi (Borsippa)	Legal document	"gift; manumission"	Borsippa	06.13. Nebuchadnezzar II	 Nebuchadnezzar II
+P22686	P25977	donor > donee	donor	donee	T04339	BM 82655		unpublished	Rē’i-alpi (Borsippa)	Legal document	"gift; manumission"	Borsippa	06.13. Nebuchadnezzar II	 Nebuchadnezzar II
+P22441	P22521	donor > donee	donor	donee	T04342	EAH 205		BE 8/1, 35	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	12.2.01 Neriglissar	 Neriglissar
+P09694	P09685	donor > donee	donor	donee	T04372	BM 77335		Kohler and Peiser 1891, p. 14	Ea-eppēš-ilī A (Babylon)	Legal document	gift	Babylon	30.6. Nabonidus	 Nabonidus
+P22444	P22448	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T04390	BM 26513		Waerzeggers and Jursa 2008, no. 3	Rē’i-alpi (Borsippa)	Legal document	prebendary work contract	Borsippa	01.10.02 Nabonidus	 Nabonidus
+P22448	P22700	obligee > obligor	obligee	obligor	T04495	BM 26740		unpublished	Rē’i-alpi (Borsippa)	Legal document	bond	Borsippa	24.9.11 Nabonidus	 Nabonidus
+P22448	P26181	employer > employee	employer	employee	T04621	BM 17670		unpublished	Rē’i-alpi (Borsippa)	Legal document	work contract	Borsippa	25.2.05 Cyrus	 Cyrus
+P16221	P16334	litigant > defendant	litigant	defendant	T04636	Unknown	U. 17238, 16	UET 4, 202	Sîn-uballiṭ	Legal document	dispute-related	Dilbat	27.7.05 Nabopolassar	 Nabopolassar
+P17551	P17539	groom > bride’s agent	groom	bride’s agent	T04720	BM 46787		Wunsch 2003, no. 4	Šangû-Ninurta	Legal document	marriage agreement	Broken/Unclear	.9.25 Darius I	 Darius I
+P22448	P25727	employer > employee	employer	employee	T04918	BM 82767		unpublished	Rē’i-alpi (Borsippa)	Legal document	work contract	Borsippa	09.11.02 Cambyses	 Cambyses
+P22448	P27391	employer > employee	employer	employee	T04918	BM 82767		unpublished	Rē’i-alpi (Borsippa)	Legal document	work contract	Borsippa	09.11.02 Cambyses	 Cambyses
+P16622	P16645	obligee > obligor	obligee	obligor	T05048	VAT 2994		San Nicolò and Ungnad 1929-1935, no. 660	Sîn-ilī (Babylon)	Legal document	bond	Babylon	10.10.34 Nebuchadnezzar II	 Nebuchadnezzar II
+P16622	P16936	obligee > obligor	obligee	obligor	T05048	VAT 2994		San Nicolò and Ungnad 1929-1935, no. 660	Sîn-ilī (Babylon)	Legal document	bond	Babylon	10.10.34 Nebuchadnezzar II	 Nebuchadnezzar II
+P16622	P17243	obligee > obligor	obligee	obligor	T05048	VAT 2994		San Nicolò and Ungnad 1929-1935, no. 660	Sîn-ilī (Babylon)	Legal document	bond	Babylon	10.10.34 Nebuchadnezzar II	 Nebuchadnezzar II
+P16622	P16209	employer > employee	employer	employee	T05084	VAT 3015		San Nicolò and Ungnad 1929-1935, no. 151	Sîn-ilī (Babylon)	Legal document	work contract	Harru-ša-Bānītu	06.6.39 Nebuchadnezzar II	 Nebuchadnezzar II
+P17125	P16511	plaintiff > defendant	plaintiff	defendant	T05111	VAT 3025		San Nicolò and Ungnad 1929-1935, no. 662	Sîn-ilī (Babylon)	Legal document	dispute-related	Ālu-ša-Nūrea	28.12.41 Nebuchadnezzar II	 Nebuchadnezzar II
+P21995	P18316	plaintiff > defendant	plaintiff	defendant	T05120	BM 26643		unpublished	Ilia A+B	Legal document	deposition	Babylon	15.9.05 Cyrus	 Cyrus
+P16511	P17285	employer > employee	employer	employee	T05127	VAT 3030		San Nicolò and Ungnad 1929-1935, no. 153	Sîn-ilī (Babylon)	Legal document	work contract	Ālu-ša-Nūrea	23.10.42 Nebuchadnezzar II	 Nebuchadnezzar II
+P24049	P24050	plaintiff > defendant	plaintiff	defendant	T05139	BM 82775		unpublished	Ilia A+B	Legal document	deposition	Borsippa	25.11.01 Cambyses	 Cambyses
+P22909	P24822	groom > bride’s agent	groom	bride’s agent	T05150	BM 94555		unpublished	Rē’i-alpi (Borsippa)	Legal document	marriage-related	Borsippa	18.5.04 Cambyses	 Cambyses
+P22516	P22448	donor > donee	donor	donee	T05157	VAT 5026		VS 5, 52	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	06.14.05 Cambyses	 Cambyses
+P22492	P22469	donor > donee	donor	donee	T05169	VAT 5042		VS 6, 113	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	21.9.06 Cambyses	 Cambyses
+P16511	P17149	employer > employee	employer	employee	T05175	VAT 3088		Sack 1972, no. 91	Sîn-ilī (Babylon)	Legal document	work contract	Ālu-ša-Nūrea	12.12.01 Amīl-Marduk	 Amīl-Marduk
+P16320	P16221	litigant > defendant	litigant	defendant	T05195	BM 131213	U. 17238, 9	UET 4, 196	Sîn-uballiṭ	Legal document	dispute-related	Not mentioned	NN	NN
+P16289	P16862	addressee > mentioned in letter	addressee	mentioned in letter	T05200	BM 131211	U. 17238, 13	UET 4, 187	Sîn-uballiṭ	Correspondence	letter	Not mentioned	NN	NN
+P16221	P16862	sender > mentioned in letter	sender	mentioned in letter	T05200	BM 131211	U. 17238, 13	UET 4, 187	Sîn-uballiṭ	Correspondence	letter	Not mentioned	NN	NN
+P16622	P16884	employer > employee	employer	employee	T05216	VAT 3118		San Nicolò and Ungnad 1929-1935, no. 625	Sîn-ilī (Babylon)	Legal document	work contract	Babylon	12.12.01 Nabonidus	 Nabonidus
+P16622	P16885	employer > employee	employer	employee	T05216	VAT 3118		San Nicolò and Ungnad 1929-1935, no. 625	Sîn-ilī (Babylon)	Legal document	work contract	Babylon	12.12.01 Nabonidus	 Nabonidus
+P16622	P16900	employer > employee	employer	employee	T05216	VAT 3118		San Nicolò and Ungnad 1929-1935, no. 625	Sîn-ilī (Babylon)	Legal document	work contract	Babylon	12.12.01 Nabonidus	 Nabonidus
+P16622	P16935	employer > employee	employer	employee	T05216	VAT 3118		San Nicolò and Ungnad 1929-1935, no. 625	Sîn-ilī (Babylon)	Legal document	work contract	Babylon	12.12.01 Nabonidus	 Nabonidus
+P16622	P17136	employer > employee	employer	employee	T05216	VAT 3118		San Nicolò and Ungnad 1929-1935, no. 625	Sîn-ilī (Babylon)	Legal document	work contract	Babylon	12.12.01 Nabonidus	 Nabonidus
+P16622	P17466	employer > employee	employer	employee	T05216	VAT 3118		San Nicolò and Ungnad 1929-1935, no. 625	Sîn-ilī (Babylon)	Legal document	work contract	Babylon	12.12.01 Nabonidus	 Nabonidus
+P23703	P22448	person who deposits object > person to whom object is deposited	person who deposits object	person to whom object is deposited	T05233	KVM 32.1145		Seri 2007, no. 57	Rē’i-alpi (Borsippa)	Legal document	deposit	Borsippa	22.8.07 Cambyses	 Cambyses
+P23703	P22448	person who deposits object > person to whom object is deposited	person who deposits object	person to whom object is deposited	T05236	BM 82711		unpublished	Rē’i-alpi (Borsippa)	Legal document	deposit	Borsippa	03.3.00 Bardia	 Bardia
+P16622	P17455	employer > employee	employer	employee	T05249	VAT 3054		San Nicolò and Ungnad 1929-1935, no. 376	Sîn-ilī (Babylon)	Legal document	work contract	Babylon	.2.05 Nabonidus	 Nabonidus
+P22445	P22448	donor > donee	donor	donee	T05255	EAH 211		BE 8/1, 102	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	20.10.01 Darius I	 Darius I
+P22469	P24849	groom > bride’s agent	groom	bride’s agent	T05269	BM 82609		Roth 1989, no. 22	Rē’i-alpi (Borsippa)	Legal document	marriage agreement	Borsippa	19.12.01 Darius I	 Darius I
+P16312	P16228	addressee > mentioned in letter	addressee	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16312	P16230	addressee > mentioned in letter	addressee	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16312	P16237	addressee > mentioned in letter	addressee	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16312	P16303	addressee > mentioned in letter	addressee	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16312	P16305	addressee > mentioned in letter	addressee	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16312	P16871	addressee > mentioned in letter	addressee	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16228	sender > mentioned in letter	sender	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16230	sender > mentioned in letter	sender	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16237	sender > mentioned in letter	sender	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16303	sender > mentioned in letter	sender	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16305	sender > mentioned in letter	sender	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16871	sender > mentioned in letter	sender	mentioned in letter	T05281	BM 131208	U. 17238, 61	UET 4, 174	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P23727	P27667	obligee > obligor	obligee	obligor	T05284	BM 82644		unpublished	Rē’i-alpi (Borsippa)	Legal document	bond	Borsippa	21.8.03 Darius I	 Darius I
+P16790	P16199	addressee > mentioned in letter	addressee	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16790	P16224	addressee > mentioned in letter	addressee	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16790	P16302	addressee > mentioned in letter	addressee	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16790	P16325	addressee > mentioned in letter	addressee	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16790	P16790	addressee > mentioned in letter	addressee	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16790	P16794	addressee > mentioned in letter	addressee	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16790	P16873	addressee > mentioned in letter	addressee	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16199	sender > mentioned in letter	sender	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16224	sender > mentioned in letter	sender	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16302	sender > mentioned in letter	sender	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16325	sender > mentioned in letter	sender	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16790	sender > mentioned in letter	sender	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16794	sender > mentioned in letter	sender	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16873	sender > mentioned in letter	sender	mentioned in letter	T05295	UM 52-30-050	U. 17239, 1	UET 4, 186	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16778	P16238	addressee > mentioned in letter	addressee	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16778	P16246	addressee > mentioned in letter	addressee	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16778	P16258	addressee > mentioned in letter	addressee	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16778	P16344	addressee > mentioned in letter	addressee	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16778	P16356	addressee > mentioned in letter	addressee	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16778	P16726	addressee > mentioned in letter	addressee	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16778	P16750	addressee > mentioned in letter	addressee	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16778	P16765	addressee > mentioned in letter	addressee	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16778	P16808	addressee > mentioned in letter	addressee	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16238	sender > mentioned in letter	sender	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16246	sender > mentioned in letter	sender	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16258	sender > mentioned in letter	sender	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16344	sender > mentioned in letter	sender	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16356	sender > mentioned in letter	sender	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16726	sender > mentioned in letter	sender	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16750	sender > mentioned in letter	sender	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16765	sender > mentioned in letter	sender	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16808	sender > mentioned in letter	sender	mentioned in letter	T05311	UM 52-30-055	U. 17239, 2	UET 4, 192	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P00005	P29103	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T05315	BM 31896		Sandowicz 2018, pp. 189-191	Egibi Nūr-Sîn	Legal document	oath	Broken/Unclear	.0. Darius I	 Darius I
+P23929	P29103	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T05315	BM 31896		Sandowicz 2018, pp. 189-191	Egibi Nūr-Sîn	Legal document	oath	Broken/Unclear	.0. Darius I	 Darius I
+P16622	P17036	person who deposits object > person to whom object is deposited	person who deposits object	person to whom object is deposited	T05323	VAT 3071		San Nicolò and Ungnad 1929-1935, no. 641	Sîn-ilī (Babylon)	Legal document	deposit	Not mentioned	29.1.11 Nabonidus	 Nabonidus
+P16549	P16971	employer > employee	employer	employee	T05357	VAT 3087		VS 6, 86	Sîn-ilī (Babylon)	Legal document	work contract	Babylon	28.13.13 Nabonidus	 Nabonidus
+P16292	P16792	addressee > mentioned in letter	addressee	mentioned in letter	T05359	UM 52-30-048	U. 17239, 3	UET 4, 184	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16292	P16810	addressee > mentioned in letter	addressee	mentioned in letter	T05359	UM 52-30-048	U. 17239, 3	UET 4, 184	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16292	P16818	addressee > mentioned in letter	addressee	mentioned in letter	T05359	UM 52-30-048	U. 17239, 3	UET 4, 184	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16792	sender > mentioned in letter	sender	mentioned in letter	T05359	UM 52-30-048	U. 17239, 3	UET 4, 184	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16810	sender > mentioned in letter	sender	mentioned in letter	T05359	UM 52-30-048	U. 17239, 3	UET 4, 184	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16818	sender > mentioned in letter	sender	mentioned in letter	T05359	UM 52-30-048	U. 17239, 3	UET 4, 184	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16285	P16225	addressee > mentioned in letter	addressee	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16285	P16225	addressee > mentioned in letter	addressee	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16285	P16262	addressee > mentioned in letter	addressee	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16285	P16333	addressee > mentioned in letter	addressee	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16285	P16761	addressee > mentioned in letter	addressee	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16285	P16867	addressee > mentioned in letter	addressee	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16225	sender > mentioned in letter	sender	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16225	sender > mentioned in letter	sender	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16262	sender > mentioned in letter	sender	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16333	sender > mentioned in letter	sender	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16761	sender > mentioned in letter	sender	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16221	P16867	sender > mentioned in letter	sender	mentioned in letter	T05369	UM 52-30-054	U. 17239, 4	UET 4, 191	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P22469	P18207	groom > bride’s agent	groom	bride’s agent	T05406	BM 29375		unpublished	Rē’i-alpi (Borsippa)	Legal document	marriage-related	Borsippa	28.9.04 Cambyses	 Cambyses
+P22469	P24873	groom > bride’s agent	groom	bride’s agent	T05406	BM 29375		unpublished	Rē’i-alpi (Borsippa)	Legal document	marriage-related	Borsippa	28.9.04 Cambyses	 Cambyses
+P16312	P16224	addressee > mentioned in letter	addressee	mentioned in letter	T05434	UM 52-30-047	U. 17239, 6	UET 4, 183	Sîn-uballiṭ	Correspondence	business- and family-related letter	Not mentioned	NN	NN
+P16312	P16872	addressee > mentioned in letter	addressee	mentioned in letter	T05434	UM 52-30-047	U. 17239, 6	UET 4, 183	Sîn-uballiṭ	Correspondence	business- and family-related letter	Not mentioned	NN	NN
+P16221	P16224	sender > mentioned in letter	sender	mentioned in letter	T05434	UM 52-30-047	U. 17239, 6	UET 4, 183	Sîn-uballiṭ	Correspondence	business- and family-related letter	Not mentioned	NN	NN
+P16221	P16872	sender > mentioned in letter	sender	mentioned in letter	T05434	UM 52-30-047	U. 17239, 6	UET 4, 183	Sîn-uballiṭ	Correspondence	business- and family-related letter	Not mentioned	NN	NN
+P16803	P16197	addressee > mentioned in letter	addressee	mentioned in letter	T05436	UM 52-30-051	U. 17239, 8	UET 4, 188	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16803	P16232	addressee > mentioned in letter	addressee	mentioned in letter	T05436	UM 52-30-051	U. 17239, 8	UET 4, 188	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16803	P16292	addressee > mentioned in letter	addressee	mentioned in letter	T05436	UM 52-30-051	U. 17239, 8	UET 4, 188	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16803	P16769	addressee > mentioned in letter	addressee	mentioned in letter	T05436	UM 52-30-051	U. 17239, 8	UET 4, 188	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16803	P16856	addressee > mentioned in letter	addressee	mentioned in letter	T05436	UM 52-30-051	U. 17239, 8	UET 4, 188	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16790	P16197	sender > mentioned in letter	sender	mentioned in letter	T05436	UM 52-30-051	U. 17239, 8	UET 4, 188	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16790	P16232	sender > mentioned in letter	sender	mentioned in letter	T05436	UM 52-30-051	U. 17239, 8	UET 4, 188	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16790	P16292	sender > mentioned in letter	sender	mentioned in letter	T05436	UM 52-30-051	U. 17239, 8	UET 4, 188	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16790	P16769	sender > mentioned in letter	sender	mentioned in letter	T05436	UM 52-30-051	U. 17239, 8	UET 4, 188	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16790	P16856	sender > mentioned in letter	sender	mentioned in letter	T05436	UM 52-30-051	U. 17239, 8	UET 4, 188	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16289	P16721	addressee > mentioned in letter	addressee	mentioned in letter	T05442	UM 52-30-036	U. 17239, 9	UET 4, 163	Sîn-uballiṭ	Correspondence	letter	Not mentioned	NN	NN
+P16289	P16738	addressee > mentioned in letter	addressee	mentioned in letter	T05442	UM 52-30-036	U. 17239, 9	UET 4, 163	Sîn-uballiṭ	Correspondence	letter	Not mentioned	NN	NN
+P16289	P16785	addressee > mentioned in letter	addressee	mentioned in letter	T05442	UM 52-30-036	U. 17239, 9	UET 4, 163	Sîn-uballiṭ	Correspondence	letter	Not mentioned	NN	NN
+P16331	P16721	addressee > mentioned in letter	addressee	mentioned in letter	T05442	UM 52-30-036	U. 17239, 9	UET 4, 163	Sîn-uballiṭ	Correspondence	letter	Not mentioned	NN	NN
+P16331	P16738	addressee > mentioned in letter	addressee	mentioned in letter	T05442	UM 52-30-036	U. 17239, 9	UET 4, 163	Sîn-uballiṭ	Correspondence	letter	Not mentioned	NN	NN
+P16331	P16785	addressee > mentioned in letter	addressee	mentioned in letter	T05442	UM 52-30-036	U. 17239, 9	UET 4, 163	Sîn-uballiṭ	Correspondence	letter	Not mentioned	NN	NN
+P16221	P16721	sender > mentioned in letter	sender	mentioned in letter	T05442	UM 52-30-036	U. 17239, 9	UET 4, 163	Sîn-uballiṭ	Correspondence	letter	Not mentioned	NN	NN
+P16221	P16738	sender > mentioned in letter	sender	mentioned in letter	T05442	UM 52-30-036	U. 17239, 9	UET 4, 163	Sîn-uballiṭ	Correspondence	letter	Not mentioned	NN	NN
+P16221	P16785	sender > mentioned in letter	sender	mentioned in letter	T05442	UM 52-30-036	U. 17239, 9	UET 4, 163	Sîn-uballiṭ	Correspondence	letter	Not mentioned	NN	NN
+P16257	P16231	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16257	P16326	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16257	P16760	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16257	P16789	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16257	P16857	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16297	P16231	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16297	P16326	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16297	P16760	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16297	P16789	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16297	P16857	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16853	P16231	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16853	P16326	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16853	P16760	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16853	P16789	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16853	P16857	addressee > mentioned in letter	addressee	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16354	P16231	sender > mentioned in letter	sender	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16354	P16326	sender > mentioned in letter	sender	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16354	P16760	sender > mentioned in letter	sender	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16354	P16789	sender > mentioned in letter	sender	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16354	P16857	sender > mentioned in letter	sender	mentioned in letter	T05443	UM 52-30-053	U. 17239, 10	UET 4, 190	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16361	P16296	addressee > mentioned in letter	addressee	mentioned in letter	T05449	Unknown (IM)		UET 4, 175	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16361	P16317	addressee > mentioned in letter	addressee	mentioned in letter	T05449	Unknown (IM)		UET 4, 175	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16361	P16357	addressee > mentioned in letter	addressee	mentioned in letter	T05449	Unknown (IM)		UET 4, 175	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16361	P16817	addressee > mentioned in letter	addressee	mentioned in letter	T05449	Unknown (IM)		UET 4, 175	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16316	P16296	sender > mentioned in letter	sender	mentioned in letter	T05449	Unknown (IM)		UET 4, 175	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16316	P16317	sender > mentioned in letter	sender	mentioned in letter	T05449	Unknown (IM)		UET 4, 175	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16316	P16357	sender > mentioned in letter	sender	mentioned in letter	T05449	Unknown (IM)		UET 4, 175	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16316	P16817	sender > mentioned in letter	sender	mentioned in letter	T05449	Unknown (IM)		UET 4, 175	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16549	P17098	employer > employee	employer	employee	T05455	VAT 3119		San Nicolò and Ungnad 1929-1935, no. 627	Sîn-ilī (Babylon)	Administrative document	note	Not mentioned	NN	NN
+P16270	P16748	sender > mentioned in letter	sender	mentioned in letter	T05462	UM 52-30-045	U. 8840	UET 4, 179	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16270	P16825	sender > mentioned in letter	sender	mentioned in letter	T05462	UM 52-30-045	U. 8840	UET 4, 179	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P16270	P16848	sender > mentioned in letter	sender	mentioned in letter	T05462	UM 52-30-045	U. 8840	UET 4, 179	Sîn-uballiṭ	Correspondence	business-related letter	Not mentioned	NN	NN
+P17062	P16928	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T05486	VAT 2988		San Nicolò and Ungnad 1929-1935, no. 703	Sîn-ilī (Babylon)	Legal document	oath	Babylon	05.4.33 Nebuchadnezzar II	 Nebuchadnezzar II
+P18168	P18194	donor > donee	donor	donee	T05509	BM 113927		Tarasewicz 2018, no. 2	Early NB archive	Legal document	gift	Ur	18.9.10 Šamaš-šumu-ukīn	 Šamaš-šumu-ukīn
+P18072	P18113	donor > donee	donor	donee	T05512	BM 113942+		Tarasewicz 2018, no. 4	Imbia	Legal document	gift	Broken/Unclear	28.3.09 Darius I	 Darius I
+P18102	P18060	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T05515	BM 114028+		Tarasewicz 2018, no. 5	Imbia	Legal document	oath	Ālu-ša-Inṣabtu	22.5.09 Darius I	 Darius I
+P22448	P22637	donor > donee	donor	donee	T05573	BM 101980		Zadok 2005b	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	01.12.05 Darius I	 Darius I
+P22448	P22635	donor > donee	donor	donee	T05578	BM 26514		Zadok 2005b	Rē’i-alpi (Borsippa)	Legal document	gift	Borsippa	06.12.05 Darius I	 Darius I
+P22448	P22469	donor > donee	donor	donee	T05587	BM 26492		unpublished	Rē’i-alpi (Borsippa)	Legal document	annulment	Borsippa	28.13.06 Darius I	 Darius I
+P22448	P22469	donor > donee	donor	donee	T05589	BM 94628		unpublished	Rē’i-alpi (Borsippa)	Legal document	annulment	Borsippa	.0.06 Darius I	 Darius I
+P23376	P15379	employer > employee	employer	employee	T05762	BM 30480		Wunsch 1993b, no. 234	Egibi Nūr-Sîn	Legal document	work contract	Babylon	14.2.15 Nabonidus	 Nabonidus
+P23183	P23891	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T05844	VAT 5379		VS 5, 100	Ilia A+B	Legal document	lease contract	Borsippa	15.4.28 Darius I	 Darius I
+P27072	P23718	obligee > obligor	obligee	obligor	T05888	BM 87341		unpublished	Ilia D	Legal document	dispute-related	Borsippa	20.6.04 Nabonidus	 Nabonidus
+P23718	P28345	addressee > mentioned in letter	addressee	mentioned in letter	T05910	BM 26690		Hackl, Jursa and Schmidl 2014, no. 124	Ilia D	Correspondence	temple-related letter	Not mentioned	NN	NN
+P23996	P28345	sender > mentioned in letter	sender	mentioned in letter	T05910	BM 26690		Hackl, Jursa and Schmidl 2014, no. 124	Ilia D	Correspondence	temple-related letter	Not mentioned	NN	NN
+P24975	P23996	addressee > mentioned in letter	addressee	mentioned in letter	T05911	BM 26725		Hackl, Jursa and Schmidl 2014, no. 125	Ilia D	Correspondence	letter	Not mentioned	NN	NN
+P09076	P20056	employer > employee	employer	employee	T05962	BM 30251		Wunsch 1993b, no. 278	Egibi Nūr-Sîn	Legal document	apprenticeship	Babylon	20.8.2 Cyrus	 Cyrus
+P22925	P23903	obligee > obligor	obligee	obligor	T05985	BM 101985		unpublished	Ilia D	Legal document	summons	Borsippa	22.1.11 Darius I	 Darius I
+P18005	P18004	litigant > defendant	litigant	defendant	T06060	IM 57168	U. 20089, 15	UET 4, 200	Damqia	Legal document	dispute-related	Broken/Unclear	NN	NN
+P22469	P23032	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T06103	BM 25724		unpublished	Rē’i-alpi (Borsippa)	Legal document	oath	Borsippa	06.1.13 Darius I	 Darius I
+P15519	P19486	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P15519	P19605	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P15519	P23650	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P15519	P29614	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P15763	P19486	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P15763	P19605	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P15763	P23650	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P15763	P29614	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P24182	P19486	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P24182	P19605	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P24182	P23650	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P24182	P29614	addressee > mentioned in letter	addressee	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P19486	sender > mentioned in letter	sender	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P19605	sender > mentioned in letter	sender	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P23650	sender > mentioned in letter	sender	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P29614	sender > mentioned in letter	sender	mentioned in letter	T06244	BM 34557		Hackl, Jursa and Schmidl 2014, no. 2	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P20187	addressee > mentioned in letter	addressee	mentioned in letter	T06245	BM 31155		Hackl, Jursa and Schmidl 2014, no. 12	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P26740	addressee > mentioned in letter	addressee	mentioned in letter	T06245	BM 31155		Hackl, Jursa and Schmidl 2014, no. 12	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P29038	addressee > mentioned in letter	addressee	mentioned in letter	T06245	BM 31155		Hackl, Jursa and Schmidl 2014, no. 12	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28993	P20187	sender > mentioned in letter	sender	mentioned in letter	T06245	BM 31155		Hackl, Jursa and Schmidl 2014, no. 12	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28993	P26740	sender > mentioned in letter	sender	mentioned in letter	T06245	BM 31155		Hackl, Jursa and Schmidl 2014, no. 12	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28993	P29038	sender > mentioned in letter	sender	mentioned in letter	T06245	BM 31155		Hackl, Jursa and Schmidl 2014, no. 12	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P20186	addressee > mentioned in letter	addressee	mentioned in letter	T06246	BM 30763		Hackl, Jursa and Schmidl 2014, no. 8	Egibi Nūr-Sîn	Correspondence	temple-related letter	Not mentioned	NN	NN
+P00036	P26569	addressee > mentioned in letter	addressee	mentioned in letter	T06246	BM 30763		Hackl, Jursa and Schmidl 2014, no. 8	Egibi Nūr-Sîn	Correspondence	temple-related letter	Not mentioned	NN	NN
+P00036	P29251	addressee > mentioned in letter	addressee	mentioned in letter	T06246	BM 30763		Hackl, Jursa and Schmidl 2014, no. 8	Egibi Nūr-Sîn	Correspondence	temple-related letter	Not mentioned	NN	NN
+P00018	P20186	sender > mentioned in letter	sender	mentioned in letter	T06246	BM 30763		Hackl, Jursa and Schmidl 2014, no. 8	Egibi Nūr-Sîn	Correspondence	temple-related letter	Not mentioned	NN	NN
+P00018	P26569	sender > mentioned in letter	sender	mentioned in letter	T06246	BM 30763		Hackl, Jursa and Schmidl 2014, no. 8	Egibi Nūr-Sîn	Correspondence	temple-related letter	Not mentioned	NN	NN
+P00018	P29251	sender > mentioned in letter	sender	mentioned in letter	T06246	BM 30763		Hackl, Jursa and Schmidl 2014, no. 8	Egibi Nūr-Sîn	Correspondence	temple-related letter	Not mentioned	NN	NN
+P00018	P29080	sender > mentioned in letter	sender	mentioned in letter	T06247	BM 41595		Hackl, Jursa and Schmidl 2014, no. 6	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P20208	addressee > mentioned in letter	addressee	mentioned in letter	T06248	BM 30751		Hackl, Jursa and Schmidl 2014, no. 7	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P29043	addressee > mentioned in letter	addressee	mentioned in letter	T06248	BM 30751		Hackl, Jursa and Schmidl 2014, no. 7	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00018	P20208	sender > mentioned in letter	sender	mentioned in letter	T06248	BM 30751		Hackl, Jursa and Schmidl 2014, no. 7	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00018	P29043	sender > mentioned in letter	sender	mentioned in letter	T06248	BM 30751		Hackl, Jursa and Schmidl 2014, no. 7	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P25258	addressee > mentioned in letter	addressee	mentioned in letter	T06249	BM 30547		Hackl, Jursa and Schmidl 2014, no. 5	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00018	P25258	sender > mentioned in letter	sender	mentioned in letter	T06249	BM 30547		Hackl, Jursa and Schmidl 2014, no. 5	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P09088	addressee > mentioned in letter	addressee	mentioned in letter	T06250	BM 31457		Hackl, Jursa and Schmidl 2014, no. 23	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P19825	addressee > mentioned in letter	addressee	mentioned in letter	T06250	BM 31457		Hackl, Jursa and Schmidl 2014, no. 23	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P20124	addressee > mentioned in letter	addressee	mentioned in letter	T06250	BM 31457		Hackl, Jursa and Schmidl 2014, no. 23	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P28864	addressee > mentioned in letter	addressee	mentioned in letter	T06250	BM 31457		Hackl, Jursa and Schmidl 2014, no. 23	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02101	P09088	sender > mentioned in letter	sender	mentioned in letter	T06250	BM 31457		Hackl, Jursa and Schmidl 2014, no. 23	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02101	P19825	sender > mentioned in letter	sender	mentioned in letter	T06250	BM 31457		Hackl, Jursa and Schmidl 2014, no. 23	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02101	P20124	sender > mentioned in letter	sender	mentioned in letter	T06250	BM 31457		Hackl, Jursa and Schmidl 2014, no. 23	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02101	P28864	sender > mentioned in letter	sender	mentioned in letter	T06250	BM 31457		Hackl, Jursa and Schmidl 2014, no. 23	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P00018	addressee > mentioned in letter	addressee	mentioned in letter	T06251	BM 30942		Hackl, Jursa and Schmidl 2014, no. 11	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P26699	addressee > mentioned in letter	addressee	mentioned in letter	T06251	BM 30942		Hackl, Jursa and Schmidl 2014, no. 11	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P29284	addressee > mentioned in letter	addressee	mentioned in letter	T06251	BM 30942		Hackl, Jursa and Schmidl 2014, no. 11	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28863	P00018	sender > mentioned in letter	sender	mentioned in letter	T06251	BM 30942		Hackl, Jursa and Schmidl 2014, no. 11	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28863	P26699	sender > mentioned in letter	sender	mentioned in letter	T06251	BM 30942		Hackl, Jursa and Schmidl 2014, no. 11	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28863	P29284	sender > mentioned in letter	sender	mentioned in letter	T06251	BM 30942		Hackl, Jursa and Schmidl 2014, no. 11	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P29440	addressee > mentioned in letter	addressee	mentioned in letter	T06252	BM 31199		Hackl, Jursa and Schmidl 2014, no. 9	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P24412	P29440	sender > mentioned in letter	sender	mentioned in letter	T06252	BM 31199		Hackl, Jursa and Schmidl 2014, no. 9	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P29506	addressee > mentioned in letter	addressee	mentioned in letter	T06253	BM 34556		Hackl, Jursa and Schmidl 2014, no. 14	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29277	P29506	sender > mentioned in letter	sender	mentioned in letter	T06253	BM 34556		Hackl, Jursa and Schmidl 2014, no. 14	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P20185	addressee > mentioned in letter	addressee	mentioned in letter	T06254	BM 34553		Hackl, Jursa and Schmidl 2014, no. 15	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P26810	addressee > mentioned in letter	addressee	mentioned in letter	T06254	BM 34553		Hackl, Jursa and Schmidl 2014, no. 15	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00036	P29613	addressee > mentioned in letter	addressee	mentioned in letter	T06254	BM 34553		Hackl, Jursa and Schmidl 2014, no. 15	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29233	P20185	sender > mentioned in letter	sender	mentioned in letter	T06254	BM 34553		Hackl, Jursa and Schmidl 2014, no. 15	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29233	P26810	sender > mentioned in letter	sender	mentioned in letter	T06254	BM 34553		Hackl, Jursa and Schmidl 2014, no. 15	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29233	P29613	sender > mentioned in letter	sender	mentioned in letter	T06254	BM 34553		Hackl, Jursa and Schmidl 2014, no. 15	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P25259	P00018	addressee > mentioned in letter	addressee	mentioned in letter	T06255	BM 30738		Hackl, Jursa and Schmidl 2014, no. 16	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P25259	P00036	addressee > mentioned in letter	addressee	mentioned in letter	T06255	BM 30738		Hackl, Jursa and Schmidl 2014, no. 16	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P20154	P00018	sender > mentioned in letter	sender	mentioned in letter	T06255	BM 30738		Hackl, Jursa and Schmidl 2014, no. 16	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P20154	P00036	sender > mentioned in letter	sender	mentioned in letter	T06255	BM 30738		Hackl, Jursa and Schmidl 2014, no. 16	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P18437	P18422	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T06292	VAT 5501		VS 6, 37	Atkuppu	Legal document	prebendary work contract	Borsippa	13.12.33 Nebuchadnezzar II	 Nebuchadnezzar II
+P22691	P22469	obligee > obligor	obligee	obligor	T06315	BM 82625		unpublished	Rē’i-alpi (Borsippa)	Legal document	bond	Borsippa	12.5.18 Darius I	 Darius I
+P27527	P22469	obligee > obligor	obligee	obligor	T06315	BM 82625		unpublished	Rē’i-alpi (Borsippa)	Legal document	bond	Borsippa	12.5.18 Darius I	 Darius I
+P27577	P22469	obligee > obligor	obligee	obligor	T06384	BM 102282		unpublished	Rē’i-alpi (Borsippa)	Legal document	receipt	Borsippa	.0. Darius I	 Darius I
+P18815	P18437	bride’s agent > groom’s agent	bride’s agent	groom’s agent	T06390	BM 82629		Roth 1998-1990, n. 13	Atkuppu	Legal document	"marriage agreement; marriage-related"	Borsippa	26.2.00 Lâbâši-Marduk	 Lâbâši-Marduk
+P18422	P18815	groom > bride’s agent	groom	bride’s agent	T06390	BM 82629		Roth 1998-1990, n. 13	Atkuppu	Legal document	"marriage agreement; marriage-related"	Borsippa	26.2.00 Lâbâši-Marduk	 Lâbâši-Marduk
+P18422	P18469	employer > employee	employer	employee	T06401	VAT 5505		VS 6, 92	Atkuppu	Legal document	work contract	Borsippa	05.12.10 Nabonidus	 Nabonidus
+P18437	P18435	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T06436	BM 26564		No publication	Atkuppu	Legal document	prebendary work contract	Borsippa	26.2.09 Nabonidus	 Nabonidus
+P18364	P18343	obligee > obligor	obligee	obligor	T06499	BM 29107		Waerzeggers 2006a, no. 8	Bēlia’u	Legal document	receipt	Borsippa	02.10.06 Darius I	 Darius I
+P18436	P18626	business partner, investing > business partner	business partner, investing	business partner	T06628	AO 20335		TBER, no. 75 and pl. 75	Atkuppu	Legal document	partnership, creation	Borsippa	03.3.09 Darius I	 Darius I
+P18436	P18770	business partner, investing > business partner	business partner, investing	business partner	T06628	AO 20335		TBER, no. 75 and pl. 75	Atkuppu	Legal document	partnership, creation	Borsippa	03.3.09 Darius I	 Darius I
+P18440	P18626	business partner, investing > business partner	business partner, investing	business partner	T06628	AO 20335		TBER, no. 75 and pl. 75	Atkuppu	Legal document	partnership, creation	Borsippa	03.3.09 Darius I	 Darius I
+P18440	P18770	business partner, investing > business partner	business partner, investing	business partner	T06628	AO 20335		TBER, no. 75 and pl. 75	Atkuppu	Legal document	partnership, creation	Borsippa	03.3.09 Darius I	 Darius I
+P19719	P29009	testator > heir	testator	heir	T06645	BM 33007		Wunsch 2000b, no. 148	Egibi Nūr-Sîn	Legal document	inheritance-related	Babylon	19.12.7 Cyrus	 Cyrus
+P20110	P29009	testator > heir	testator	heir	T06645	BM 33007		Wunsch 2000b, no. 148	Egibi Nūr-Sîn	Legal document	inheritance-related	Babylon	19.12.7 Cyrus	 Cyrus
+P00005	P24198	obligee > obligor	obligee	obligor	T06692	BM 31022		Wunsch 2000b, no. 194	Egibi Nūr-Sîn	Legal document	delivery/payment agreement	Ālu-ša-Nabû-ēreš	27.9.14 Darius I	 Darius I
+P00005	P26727	obligee > obligor	obligee	obligor	T06692	BM 31022		Wunsch 2000b, no. 194	Egibi Nūr-Sîn	Legal document	delivery/payment agreement	Ālu-ša-Nabû-ēreš	27.9.14 Darius I	 Darius I
+P19666	P24198	obligee > obligor	obligee	obligor	T06692	BM 31022		Wunsch 2000b, no. 194	Egibi Nūr-Sîn	Legal document	delivery/payment agreement	Ālu-ša-Nabû-ēreš	27.9.14 Darius I	 Darius I
+P19666	P26727	obligee > obligor	obligee	obligor	T06692	BM 31022		Wunsch 2000b, no. 194	Egibi Nūr-Sîn	Legal document	delivery/payment agreement	Ālu-ša-Nabû-ēreš	27.9.14 Darius I	 Darius I
+P29354	P24198	obligee > obligor	obligee	obligor	T06692	BM 31022		Wunsch 2000b, no. 194	Egibi Nūr-Sîn	Legal document	delivery/payment agreement	Ālu-ša-Nabû-ēreš	27.9.14 Darius I	 Darius I
+P29354	P26727	obligee > obligor	obligee	obligor	T06692	BM 31022		Wunsch 2000b, no. 194	Egibi Nūr-Sîn	Legal document	delivery/payment agreement	Ālu-ša-Nabû-ēreš	27.9.14 Darius I	 Darius I
+P22469	P22880	person who deposits object > person to whom object is deposited	person who deposits object	person to whom object is deposited	T06746	BM 23898		unpublished	Rē’i-alpi (Borsippa)	Legal document	deposit	Borsippa	07.10.20 Darius I	 Darius I
+P20644	P20772	obligee > obligor	obligee	obligor	T06808	BM 29136		No publication	Ibnāya A	Legal document	dispute-related	Borsippa	03.11.00 Amīl-Marduk	 Amīl-Marduk
+P22660	P20438	obligee > obligor	obligee	obligor	T06845	BM 30949		Cyr 137	Egibi Nūr-Sîn	Legal document	bond	Babylon	22.11.03 Cyrus	 Cyrus
+P20644	P20743	employer > employee	employer	employee	T06853	BM 29228		Waerzeggers 2006b, no. 1	Ibnāya A	Legal document	work contract	Borsippa	10.13.03 Nabonidus	 Nabonidus
+P23366	P23346	trainer of a profession > apprentice	trainer of a profession	apprentice	T06882	BM 30976		Cyr 325	Egibi Nūr-Sîn	Legal document	apprenticeship	Babylon	06.13.08 Cyrus	 Cyrus
+P20228	P20085	manumitter > manumitted slave	manumitter	manumitted slave	T06901	BM 30523		Nbn 626	Egibi Nūr-Sîn	Legal document	manumission	Hursag-kalamma	01.8.12 Nabonidus	 Nabonidus
+P20228	P24663	manumitter > manumitted slave	manumitter	manumitted slave	T06901	BM 30523		Nbn 626	Egibi Nūr-Sîn	Legal document	manumission	Hursag-kalamma	01.8.12 Nabonidus	 Nabonidus
+P20643	P20644	groom > bride’s agent	groom	bride’s agent	T06925	BM 96151		No publication	Ibnāya A	Legal document	dowry promise	Borsippa	26.10.04 Cyrus	 Cyrus
+P20216	P00021	business partner, acting > business partner	business partner, acting	business partner	T06945	MMA 79.7.14		CTMMA 3, no. 49	Egibi Nūr-Sîn	Legal document	partnership, creation	Babylon	22.8.4 Nabonidus	 Nabonidus
+P19378	P00021	business partner, investing > business partner	business partner, investing	business partner	T06945	MMA 79.7.14		CTMMA 3, no. 49	Egibi Nūr-Sîn	Legal document	partnership, creation	Babylon	22.8.4 Nabonidus	 Nabonidus
+P00021	P00017	adopter > adoptee	adopter	adoptee	T06949	MMA 79.7.4		CTMMA 3, no. 53	Egibi Nūr-Sîn	Legal document	adoption	Babylon	4.9.10 Nabonidus	 Nabonidus
+P20889	P00017	parent who gives person into adoption > adoptee	parent who gives person into adoption	adoptee	T06949	MMA 79.7.4		CTMMA 3, no. 53	Egibi Nūr-Sîn	Legal document	adoption	Babylon	4.9.10 Nabonidus	 Nabonidus
+P20530	P20503	sender > mentioned in letter	sender	mentioned in letter	T06977	BM 25827		Hackl, Jursa and Schmidl 2014, no. 121	Ibnāya B-C-D	Correspondence	letter	Not mentioned	NN	NN
+P20530	P20538	sender > mentioned in letter	sender	mentioned in letter	T06977	BM 25827		Hackl, Jursa and Schmidl 2014, no. 121	Ibnāya B-C-D	Correspondence	letter	Not mentioned	NN	NN
+P20530	P20607	sender > mentioned in letter	sender	mentioned in letter	T06977	BM 25827		Hackl, Jursa and Schmidl 2014, no. 121	Ibnāya B-C-D	Correspondence	letter	Not mentioned	NN	NN
+P21057	P00021	plaintiff > defendant	plaintiff	defendant	T07035	BM 41402		Nbn 13	Egibi Nūr-Sîn	Legal document	court protocol	Babylon	12.12.00 Nabonidus	 Nabonidus
+P23327	P23307	obligee > obligor	obligee	obligor	T07042	BM 30475		Camb 276	Egibi Nūr-Sîn	Legal document	bond	Dūr-karaši-Bandada	12.3.5 Cambyses	 Cambyses
+P00021	P20877	employer > employee	employer	employee	T07050	BM 31324		Nbn 171	Egibi Nūr-Sîn	Legal document	receipt	Babylon	28.10.04 Nabonidus	 Nabonidus
+P20944	P20947	bride > groom’s agent	bride	groom’s agent	T07077	BM 30958		Nbn 243	Egibi Nūr-Sîn	Legal document	marriage agreement	Babylon	10.13.06 Nabonidus	 Nabonidus
+P20889	P20947	bride’s agent > groom’s agent	bride’s agent	groom’s agent	T07077	BM 30958		Nbn 243	Egibi Nūr-Sîn	Legal document	marriage agreement	Babylon	10.13.06 Nabonidus	 Nabonidus
+P20942	P20889	groom > bride’s agent	groom	bride’s agent	T07077	BM 30958		Nbn 243	Egibi Nūr-Sîn	Legal document	marriage agreement	Babylon	10.13.06 Nabonidus	 Nabonidus
+P15518	P15378	groom > bride’s agent	groom	bride’s agent	T07090	BM 30705		Nbn 258	Egibi Nūr-Sîn	Legal document	dowry promise	Babylon	18.5.07 Nabonidus	 Nabonidus
+P21788	P21469	groom > bride’s agent	groom	bride’s agent	T07148	BM 30156		Nbn 348	Egibi Nūr-Sîn	Legal document	receipt	Šapīya	01.5.09 Nabonidus	 Nabonidus
+P21992	P21966	sender > mentioned in letter	sender	mentioned in letter	T07194	Amherst 261		Hackl, Jursa and Schmidl 2014, no. 126	Ilšu-abūšu A	Correspondence	family-related letter	Not mentioned	NN	NN
+P21992	P22055	sender > mentioned in letter	sender	mentioned in letter	T07194	Amherst 261		Hackl, Jursa and Schmidl 2014, no. 126	Ilšu-abūšu A	Correspondence	family-related letter	Not mentioned	NN	NN
+P21998	P21964	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P21998	P21967	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P21998	P21985	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P21998	P22000	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P21998	P22003	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P21998	P22094	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P21998	P22143	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P21998	P22158	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P22086	P21964	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P22086	P21967	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P22086	P21985	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P22086	P22000	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P22086	P22003	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P22086	P22094	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P22086	P22143	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P22086	P22158	sender > mentioned in letter	sender	mentioned in letter	T07198	BM 87313		Hackl, Jursa and Schmidl 2014, no. 127	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P22243	P23671	obligee > obligor	obligee	obligor	T07231	BM 30806		Nbk 361	Egibi Nūr-Sîn	Legal document	summons	Upia	21.4.40 Nebuchadnezzar II	 Nebuchadnezzar II
+P22260	P23671	obligee > obligor	obligee	obligor	T07231	BM 30806		Nbk 361	Egibi Nūr-Sîn	Legal document	summons	Upia	21.4.40 Nebuchadnezzar II	 Nebuchadnezzar II
+P26298	P28400	obligee > obligor	obligee	obligor	T07232	BM 30805		Nbk 363	Egibi Nūr-Sîn	Legal document	summons	Upia	19.6.40 Nebuchadnezzar II	 Nebuchadnezzar II
+P22003	P22008	sender > mentioned in letter	sender	mentioned in letter	T07233	Bodleian AB 252		Hackl, Jursa and Schmidl 2014, no. 128	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P22003	P22056	sender > mentioned in letter	sender	mentioned in letter	T07233	Bodleian AB 252		Hackl, Jursa and Schmidl 2014, no. 128	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P22003	P22141	sender > mentioned in letter	sender	mentioned in letter	T07233	Bodleian AB 252		Hackl, Jursa and Schmidl 2014, no. 128	Ilšu-abūšu A	Correspondence	business-related letter	Not mentioned	NN	NN
+P28944	P29377	obligee > obligor	obligee	obligor	T07237	BM 30346		Nbk 365	Egibi Nūr-Sîn	Legal document	summons	Upia	07.9.40 Nebuchadnezzar II	 Nebuchadnezzar II
+P22252	P21579	obligee > obligor	obligee	obligor	T07240	BM 31162		Nbk 366	Egibi Nūr-Sîn	Legal document	summons	Upia	23.9.40 Nebuchadnezzar II	 Nebuchadnezzar II
+P20538	P22199	sender > mentioned in letter	sender	mentioned in letter	T07250	BM 25897		Hackl, Jursa and Schmidl 2014, no. 122	Ibnāya B-C-D	Correspondence	business-related letter	Not mentioned	22.6.00 Šamaš-erība	 Šamaš-erība
+P20538	P22344	sender > mentioned in letter	sender	mentioned in letter	T07250	BM 25897		Hackl, Jursa and Schmidl 2014, no. 122	Ibnāya B-C-D	Correspondence	business-related letter	Not mentioned	22.6.00 Šamaš-erība	 Šamaš-erība
+P00020	P21256	obligee > obligor	obligee	obligor	T07252	BM 30872		Dar 358	Egibi Nūr-Sîn	Legal document	bond	Babylon	22.11.13 Darius I	 Darius I
+P21966	P21992	sender > mentioned in letter	sender	mentioned in letter	T07262	Bodleian C6		Hackl, Jursa and Schmidl 2014, no. 130	Ilšu-abūšu A	Correspondence	business- and family-related letter	Not mentioned	NN	NN
+P21966	P22059	sender > mentioned in letter	sender	mentioned in letter	T07262	Bodleian C6		Hackl, Jursa and Schmidl 2014, no. 130	Ilšu-abūšu A	Correspondence	business- and family-related letter	Not mentioned	NN	NN
+P21966	P28933	sender > mentioned in letter	sender	mentioned in letter	T07262	Bodleian C6		Hackl, Jursa and Schmidl 2014, no. 130	Ilšu-abūšu A	Correspondence	business- and family-related letter	Not mentioned	NN	NN
+P21966	P21992	sender > mentioned in letter	sender	mentioned in letter	T07269	HSM 1899.2.262		Hackl, Jursa and Schmidl 2014, no. 131	Ilšu-abūšu A	Correspondence	family-related letter	Not mentioned	NN	NN
+P00005	P19422	plaintiff > defendant	plaintiff	defendant	T07368	BM 30813		Dar 129	Egibi Nūr-Sîn	Legal document	dispute-related	Babylon	20.8.4 Darius I	 Darius I
+P23929	P19422	plaintiff > defendant	plaintiff	defendant	T07368	BM 30813		Dar 129	Egibi Nūr-Sîn	Legal document	dispute-related	Babylon	20.8.4 Darius I	 Darius I
+P00005	P29312	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T07397	BM 33157		Dar 339	Egibi Nūr-Sîn	Legal document	summons	Babylon	1.0.12 Darius I	 Darius I
+P00005	P24448	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T07401	BM 33150		Dar 504	Egibi Nūr-Sîn	Legal document	summons	Babylon	15.5.20 Darius I	 Darius I
+P21578	P20908	donor > donee	donor	donee	T07482	BM 33063		Nbn 65	Egibi Nūr-Sîn	Legal document	gift	Babylon	10.3.02 Nabonidus	 Nabonidus
+P15356	P22976	donor > donee	donor	donee	T07486	BM 33940		Nbn 75	Egibi Nūr-Sîn	Legal document	gift	Borsippa	.8.02 Nabonidus	 Nabonidus
+P23348	P23374	obligee > obligor	obligee	obligor	T07552	BM 33142		Nbk 419	Egibi Nūr-Sîn	Legal document	summons	Upia	29.1. Nebuchadnezzar II	 Nebuchadnezzar II
+P21994	P21334	donor > donee	donor	donee	T07631	BM 30461		Nbk 368	Egibi Nūr-Sîn	Legal document	gift	Babylon	16.11.40 Nebuchadnezzar II	 Nebuchadnezzar II
+P28113	P19666	addressee > mentioned in letter	addressee	mentioned in letter	T07648	BM 41612		Hackl, Jursa and Schmidl 2014, no. 47	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28113	P28977	addressee > mentioned in letter	addressee	mentioned in letter	T07648	BM 41612		Hackl, Jursa and Schmidl 2014, no. 47	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28113	P29056	addressee > mentioned in letter	addressee	mentioned in letter	T07648	BM 41612		Hackl, Jursa and Schmidl 2014, no. 47	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29224	P19666	sender > mentioned in letter	sender	mentioned in letter	T07648	BM 41612		Hackl, Jursa and Schmidl 2014, no. 47	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29224	P28977	sender > mentioned in letter	sender	mentioned in letter	T07648	BM 41612		Hackl, Jursa and Schmidl 2014, no. 47	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29224	P29056	sender > mentioned in letter	sender	mentioned in letter	T07648	BM 41612		Hackl, Jursa and Schmidl 2014, no. 47	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P22325	P21589	groom > bride’s agent	groom	bride’s agent	T07651	BM 30571		Wunsch 1997-1998, no. 1	Egibi Nūr-Sîn	Legal document	marriage agreement	Babylon	9.9.13 Nebuchadnezzar II	 Nebuchadnezzar II
+P00005	P24557	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T07667	BM 30436		Bertin 2535	Egibi Nūr-Sîn	Legal document	oath	Babylon	17.5.24 Darius I	 Darius I
+P21254	P15356	testator > heir	testator	heir	T07682	BM 30646		Sack 1972, no. 15	Egibi Nūr-Sîn	Legal document	inheritance-related	Babylon	13.9.1 Amīl-Marduk	 Amīl-Marduk
+P21254	P18940	testator > heir	testator	heir	T07682	BM 30646		Sack 1972, no. 15	Egibi Nūr-Sîn	Legal document	inheritance-related	Babylon	13.9.1 Amīl-Marduk	 Amīl-Marduk
+P22926	P02101	groom > bride’s agent	groom	bride’s agent	T07710	Liverpool 29-11-77, 33		Liv 32	Egibi Nūr-Sîn	Legal document	marriage-related	Babylon	1.2.14 Nabonidus	 Nabonidus
+P27840	P24376	addressee > mentioned in letter	addressee	mentioned in letter	T07718	BM 31290		Hackl, Jursa and Schmidl 2014, no. 17	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02482	P24376	sender > mentioned in letter	sender	mentioned in letter	T07718	BM 31290		Hackl, Jursa and Schmidl 2014, no. 17	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29109	P26299	addressee > mentioned in letter	addressee	mentioned in letter	T07720	BM 30737		Hackl, Jursa and Schmidl 2014, no. 20	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29109	P29239	addressee > mentioned in letter	addressee	mentioned in letter	T07720	BM 30737		Hackl, Jursa and Schmidl 2014, no. 20	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29109	P29350	addressee > mentioned in letter	addressee	mentioned in letter	T07720	BM 30737		Hackl, Jursa and Schmidl 2014, no. 20	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29275	P26299	sender > mentioned in letter	sender	mentioned in letter	T07720	BM 30737		Hackl, Jursa and Schmidl 2014, no. 20	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29275	P29239	sender > mentioned in letter	sender	mentioned in letter	T07720	BM 30737		Hackl, Jursa and Schmidl 2014, no. 20	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29275	P29350	sender > mentioned in letter	sender	mentioned in letter	T07720	BM 30737		Hackl, Jursa and Schmidl 2014, no. 20	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02101	P18940	addressee > mentioned in letter	addressee	mentioned in letter	T07723	BM 30778		Hackl, Jursa and Schmidl 2014, no. 24	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P02101	P29255	addressee > mentioned in letter	addressee	mentioned in letter	T07723	BM 30778		Hackl, Jursa and Schmidl 2014, no. 24	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P02092	P18940	sender > mentioned in letter	sender	mentioned in letter	T07723	BM 30778		Hackl, Jursa and Schmidl 2014, no. 24	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P02092	P29255	sender > mentioned in letter	sender	mentioned in letter	T07723	BM 30778		Hackl, Jursa and Schmidl 2014, no. 24	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P02101	P00020	addressee > mentioned in letter	addressee	mentioned in letter	T07724	BM 37814		Hackl, Jursa and Schmidl 2014, no. 25	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P02101	P27187	addressee > mentioned in letter	addressee	mentioned in letter	T07724	BM 37814		Hackl, Jursa and Schmidl 2014, no. 25	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P02101	P27432	addressee > mentioned in letter	addressee	mentioned in letter	T07724	BM 37814		Hackl, Jursa and Schmidl 2014, no. 25	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P29204	P00020	sender > mentioned in letter	sender	mentioned in letter	T07724	BM 37814		Hackl, Jursa and Schmidl 2014, no. 25	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P29204	P27187	sender > mentioned in letter	sender	mentioned in letter	T07724	BM 37814		Hackl, Jursa and Schmidl 2014, no. 25	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P29204	P27432	sender > mentioned in letter	sender	mentioned in letter	T07724	BM 37814		Hackl, Jursa and Schmidl 2014, no. 25	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P02101	P18946	addressee > mentioned in letter	addressee	mentioned in letter	T07725	BM 30562		Hackl, Jursa and Schmidl 2014, no. 26	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02101	P29367	addressee > mentioned in letter	addressee	mentioned in letter	T07725	BM 30562		Hackl, Jursa and Schmidl 2014, no. 26	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00017	P18946	sender > mentioned in letter	sender	mentioned in letter	T07725	BM 30562		Hackl, Jursa and Schmidl 2014, no. 26	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00017	P29367	sender > mentioned in letter	sender	mentioned in letter	T07725	BM 30562		Hackl, Jursa and Schmidl 2014, no. 26	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P26189	P25486	person who deposits object > person to whom object is deposited	person who deposits object	person to whom object is deposited	T07740	BM 103571		No publication	Balāṭu, slave of Rēmūt-Bēl	Legal document	deposit	Not mentioned	28.13.22 Darius I	 Darius I
+P02101	P29257	addressee > mentioned in letter	addressee	mentioned in letter	T07751	BM 30997		Hackl, Jursa and Schmidl 2014, no. 28	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28984	P29257	sender > mentioned in letter	sender	mentioned in letter	T07751	BM 30997		Hackl, Jursa and Schmidl 2014, no. 28	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02101	P29004	addressee > mentioned in letter	addressee	mentioned in letter	T07752	BM 31294		Hackl, Jursa and Schmidl 2014, no. 29	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02101	P29577	addressee > mentioned in letter	addressee	mentioned in letter	T07752	BM 31294		Hackl, Jursa and Schmidl 2014, no. 29	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02101	P20432	addressee > mentioned in letter	addressee	mentioned in letter	T07753	BM 30648		Hackl, Jursa and Schmidl 2014, no. 30	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02101	P29131	addressee > mentioned in letter	addressee	mentioned in letter	T07753	BM 30648		Hackl, Jursa and Schmidl 2014, no. 30	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P08905	P20432	sender > mentioned in letter	sender	mentioned in letter	T07753	BM 30648		Hackl, Jursa and Schmidl 2014, no. 30	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P08905	P29131	sender > mentioned in letter	sender	mentioned in letter	T07753	BM 30648		Hackl, Jursa and Schmidl 2014, no. 30	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P02101	P28605	addressee > mentioned in letter	addressee	mentioned in letter	T07754	MNB 1136		Hackl, Jursa and Schmidl 2014, no. 31	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00018	P28605	sender > mentioned in letter	sender	mentioned in letter	T07754	MNB 1136		Hackl, Jursa and Schmidl 2014, no. 31	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P28445	addressee > mentioned in letter	addressee	mentioned in letter	T07756	BM 30643		Hackl, Jursa and Schmidl 2014, no. 33	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P29104	addressee > mentioned in letter	addressee	mentioned in letter	T07756	BM 30643		Hackl, Jursa and Schmidl 2014, no. 33	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29397	P28445	sender > mentioned in letter	sender	mentioned in letter	T07756	BM 30643		Hackl, Jursa and Schmidl 2014, no. 33	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29397	P29104	sender > mentioned in letter	sender	mentioned in letter	T07756	BM 30643		Hackl, Jursa and Schmidl 2014, no. 33	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P22954	addressee > mentioned in letter	addressee	mentioned in letter	T07757	BM 31874		Hackl, Jursa and Schmidl 2014, no. 34	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P29488	addressee > mentioned in letter	addressee	mentioned in letter	T07757	BM 31874		Hackl, Jursa and Schmidl 2014, no. 34	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29398	P22954	sender > mentioned in letter	sender	mentioned in letter	T07757	BM 31874		Hackl, Jursa and Schmidl 2014, no. 34	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29398	P29488	sender > mentioned in letter	sender	mentioned in letter	T07757	BM 31874		Hackl, Jursa and Schmidl 2014, no. 34	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P24296	addressee > mentioned in letter	addressee	mentioned in letter	T07760	BM 30717		Hackl, Jursa and Schmidl 2014, no. 38	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P28439	addressee > mentioned in letter	addressee	mentioned in letter	T07760	BM 30717		Hackl, Jursa and Schmidl 2014, no. 38	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00018	P24296	sender > mentioned in letter	sender	mentioned in letter	T07760	BM 30717		Hackl, Jursa and Schmidl 2014, no. 38	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00018	P28439	sender > mentioned in letter	sender	mentioned in letter	T07760	BM 30717		Hackl, Jursa and Schmidl 2014, no. 38	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P26656	addressee > mentioned in letter	addressee	mentioned in letter	T07761	BM 42448		Hackl, Jursa and Schmidl 2014, no. 39	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00018	P26656	sender > mentioned in letter	sender	mentioned in letter	T07761	BM 42448		Hackl, Jursa and Schmidl 2014, no. 39	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00021	P21059	obligee > obligor	obligee	obligor	T07766	BM 31564		Bertin 1353	Egibi Nūr-Sîn	Legal document	bond	Babylon	11.4.9 Nabonidus	 Nabonidus
+P24180	P00005	addressee > mentioned in letter	addressee	mentioned in letter	T07768	BM 33076		Hackl, Jursa and Schmidl 2014, no. 44	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29111	P00005	sender > mentioned in letter	sender	mentioned in letter	T07768	BM 33076		Hackl, Jursa and Schmidl 2014, no. 44	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P00026	addressee > mentioned in letter	addressee	mentioned in letter	T07769	BM 31041		Hackl, Jursa and Schmidl 2014, no. 45	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P13533	addressee > mentioned in letter	addressee	mentioned in letter	T07769	BM 31041		Hackl, Jursa and Schmidl 2014, no. 45	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P19847	addressee > mentioned in letter	addressee	mentioned in letter	T07769	BM 31041		Hackl, Jursa and Schmidl 2014, no. 45	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P22261	addressee > mentioned in letter	addressee	mentioned in letter	T07769	BM 31041		Hackl, Jursa and Schmidl 2014, no. 45	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P23291	addressee > mentioned in letter	addressee	mentioned in letter	T07769	BM 31041		Hackl, Jursa and Schmidl 2014, no. 45	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P23367	addressee > mentioned in letter	addressee	mentioned in letter	T07769	BM 31041		Hackl, Jursa and Schmidl 2014, no. 45	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P24198	addressee > mentioned in letter	addressee	mentioned in letter	T07769	BM 31041		Hackl, Jursa and Schmidl 2014, no. 45	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P26730	addressee > mentioned in letter	addressee	mentioned in letter	T07769	BM 31041		Hackl, Jursa and Schmidl 2014, no. 45	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P28399	addressee > mentioned in letter	addressee	mentioned in letter	T07769	BM 31041		Hackl, Jursa and Schmidl 2014, no. 45	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P26824	P19666	addressee > mentioned in letter	addressee	mentioned in letter	T07778	BM 31195		Hackl, Jursa and Schmidl 2014, no. 46	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28929	P19666	sender > mentioned in letter	sender	mentioned in letter	T07778	BM 31195		Hackl, Jursa and Schmidl 2014, no. 46	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28856	P29523	addressee > mentioned in letter	addressee	mentioned in letter	T07779	BM 31276		Hackl, Jursa and Schmidl 2014, no. 48	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29396	P29523	sender > mentioned in letter	sender	mentioned in letter	T07779	BM 31276		Hackl, Jursa and Schmidl 2014, no. 48	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P21254	P00005	addressee > mentioned in letter	addressee	mentioned in letter	T07780	BM 31948		Hackl, Jursa and Schmidl 2014, no. 49	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P21254	P25365	addressee > mentioned in letter	addressee	mentioned in letter	T07780	BM 31948		Hackl, Jursa and Schmidl 2014, no. 49	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29558	P00005	sender > mentioned in letter	sender	mentioned in letter	T07780	BM 31948		Hackl, Jursa and Schmidl 2014, no. 49	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29558	P25365	sender > mentioned in letter	sender	mentioned in letter	T07780	BM 31948		Hackl, Jursa and Schmidl 2014, no. 49	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P19666	addressee > mentioned in letter	addressee	mentioned in letter	T07781	BM 31119		Hackl, Jursa and Schmidl 2014, no. 50	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29524	P19666	sender > mentioned in letter	sender	mentioned in letter	T07781	BM 31119		Hackl, Jursa and Schmidl 2014, no. 50	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P02101	addressee > mentioned in letter	addressee	mentioned in letter	T07782	BM 31124		Hackl, Jursa and Schmidl 2014, no. 51	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29584	P24198	addressee > mentioned in letter	addressee	mentioned in letter	T07783	BM 31236		Hackl, Jursa and Schmidl 2014, no. 52	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P24198	sender > mentioned in letter	sender	mentioned in letter	T07783	BM 31236		Hackl, Jursa and Schmidl 2014, no. 52	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P29081	addressee > mentioned in letter	addressee	mentioned in letter	T07785	BM 31279		Hackl, Jursa and Schmidl 2014, no. 54	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P29486	addressee > mentioned in letter	addressee	mentioned in letter	T07785	BM 31279		Hackl, Jursa and Schmidl 2014, no. 54	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28829	P29081	sender > mentioned in letter	sender	mentioned in letter	T07785	BM 31279		Hackl, Jursa and Schmidl 2014, no. 54	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P28829	P29486	sender > mentioned in letter	sender	mentioned in letter	T07785	BM 31279		Hackl, Jursa and Schmidl 2014, no. 54	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P26712	addressee > mentioned in letter	addressee	mentioned in letter	T07786	BM 31826		Hackl, Jursa and Schmidl 2014, no. 56	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P29083	addressee > mentioned in letter	addressee	mentioned in letter	T07786	BM 31826		Hackl, Jursa and Schmidl 2014, no. 56	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P01975	P26712	sender > mentioned in letter	sender	mentioned in letter	T07786	BM 31826		Hackl, Jursa and Schmidl 2014, no. 56	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P01975	P29083	sender > mentioned in letter	sender	mentioned in letter	T07786	BM 31826		Hackl, Jursa and Schmidl 2014, no. 56	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29479	P23623	addressee > mentioned in letter	addressee	mentioned in letter	T07787	BM 31830		Hackl, Jursa and Schmidl 2014, no. 57	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P29479	P28963	addressee > mentioned in letter	addressee	mentioned in letter	T07787	BM 31830		Hackl, Jursa and Schmidl 2014, no. 57	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P23623	sender > mentioned in letter	sender	mentioned in letter	T07787	BM 31830		Hackl, Jursa and Schmidl 2014, no. 57	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P28963	sender > mentioned in letter	sender	mentioned in letter	T07787	BM 31830		Hackl, Jursa and Schmidl 2014, no. 57	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P28157	addressee > mentioned in letter	addressee	mentioned in letter	T07788	BM 31844		Hackl, Jursa and Schmidl 2014, no. 58	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P29014	addressee > mentioned in letter	addressee	mentioned in letter	T07788	BM 31844		Hackl, Jursa and Schmidl 2014, no. 58	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P29065	addressee > mentioned in letter	addressee	mentioned in letter	T07788	BM 31844		Hackl, Jursa and Schmidl 2014, no. 58	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P29210	addressee > mentioned in letter	addressee	mentioned in letter	T07788	BM 31844		Hackl, Jursa and Schmidl 2014, no. 58	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P23798	P28157	sender > mentioned in letter	sender	mentioned in letter	T07788	BM 31844		Hackl, Jursa and Schmidl 2014, no. 58	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P23798	P29014	sender > mentioned in letter	sender	mentioned in letter	T07788	BM 31844		Hackl, Jursa and Schmidl 2014, no. 58	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P23798	P29065	sender > mentioned in letter	sender	mentioned in letter	T07788	BM 31844		Hackl, Jursa and Schmidl 2014, no. 58	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P23798	P29210	sender > mentioned in letter	sender	mentioned in letter	T07788	BM 31844		Hackl, Jursa and Schmidl 2014, no. 58	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P18931	addressee > mentioned in letter	addressee	mentioned in letter	T07789	BM 33075		Hackl, Jursa and Schmidl 2014, no. 60	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P00005	P26675	addressee > mentioned in letter	addressee	mentioned in letter	T07789	BM 33075		Hackl, Jursa and Schmidl 2014, no. 60	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P00005	P27122	addressee > mentioned in letter	addressee	mentioned in letter	T07789	BM 33075		Hackl, Jursa and Schmidl 2014, no. 60	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P21743	P18931	sender > mentioned in letter	sender	mentioned in letter	T07789	BM 33075		Hackl, Jursa and Schmidl 2014, no. 60	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P21743	P26675	sender > mentioned in letter	sender	mentioned in letter	T07789	BM 33075		Hackl, Jursa and Schmidl 2014, no. 60	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P21743	P27122	sender > mentioned in letter	sender	mentioned in letter	T07789	BM 33075		Hackl, Jursa and Schmidl 2014, no. 60	Egibi Nūr-Sîn	Correspondence	family-related letter	Not mentioned	NN	NN
+P25284	P00005	addressee > mentioned in letter	addressee	mentioned in letter	T07790	BM 30688		Hackl, Jursa and Schmidl 2014, no. 63	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00020	P00005	sender > mentioned in letter	sender	mentioned in letter	T07790	BM 30688		Hackl, Jursa and Schmidl 2014, no. 63	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P26712	P00005	addressee > mentioned in letter	addressee	mentioned in letter	T07791	BM 32049		Hackl, Jursa and Schmidl 2014, no. 64	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P25358	P00005	sender > mentioned in letter	sender	mentioned in letter	T07791	BM 32049		Hackl, Jursa and Schmidl 2014, no. 64	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P15744	addressee > mentioned in letter	addressee	mentioned in letter	T07793	BM 132295		Hackl, Jursa and Schmidl 2014, no. 66	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P22363	addressee > mentioned in letter	addressee	mentioned in letter	T07793	BM 132295		Hackl, Jursa and Schmidl 2014, no. 66	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P26846	addressee > mentioned in letter	addressee	mentioned in letter	T07793	BM 132295		Hackl, Jursa and Schmidl 2014, no. 66	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P28170	addressee > mentioned in letter	addressee	mentioned in letter	T07793	BM 132295		Hackl, Jursa and Schmidl 2014, no. 66	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P29193	addressee > mentioned in letter	addressee	mentioned in letter	T07793	BM 132295		Hackl, Jursa and Schmidl 2014, no. 66	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P25342	P26694	addressee > mentioned in letter	addressee	mentioned in letter	T07794	BM 30226		CT 22, 84	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P24242	P26694	sender > mentioned in letter	sender	mentioned in letter	T07794	BM 30226		CT 22, 84	Egibi Nūr-Sîn	Correspondence	letter	Not mentioned	NN	NN
+P00005	P21646	obligee > obligor	obligee	obligor	T07796	BM 41440		Abraham 1997a, pp. 75-76, 85	Egibi Nūr-Sîn	Legal document	bond	Susa	22.13.23 Darius I	 Darius I
+P00023	P27430	donor > donee	donor	donee	T07806	BM 33933		Roth 1991, p. 33, n. 43	Egibi Nūr-Sîn	Legal document	gift	Broken/Unclear	26.10.33 Darius I	 Darius I
+P00023	P22744	groom > bride’s agent	groom	bride’s agent	T07807	BM 33932		Roth 1991, p. 32, n. 39	Egibi Nūr-Sîn	Legal document	dowry promise	Babylon	22.9.32 Darius I	 Darius I
+P23148	P27141	donor > donee	donor	donee	T07836	BM 30515		Wunsch 2003, no. 33	Egibi Nūr-Sîn	Legal document	gift	Babylon	10.12.15 Nabonidus	 Nabonidus
+P28212	P23282	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T07857	MLC 1775		BRM 1, 76	Egibi Nūr-Sîn	Legal document	oath	Bīt-Hahhūru	20.3.14 Darius I	 Darius I
+P00005	P18931	donor > donee	donor	donee	T07893	BM 41434		Pinches 1988, pp. 3-5	Egibi Nūr-Sîn	Legal document	gift	Babylon	5.3.16 Darius I	 Darius I
+P25670	P26256	employer > employee	employer	employee	T07968	BM 94901		Unpublished	Ilia A+B	Legal document	work contract	Borsippa	9.9.9 Nabonidus	 Nabonidus
+P28915	P18316	addressee > mentioned in letter	addressee	mentioned in letter	T07969	BM 26874		Hackl, Jursa and Schmidl 2014, no. 123	Ilia A+B	Correspondence	business-related letter	Not mentioned	NN	NN
+P28915	P27235	addressee > mentioned in letter	addressee	mentioned in letter	T07969	BM 26874		Hackl, Jursa and Schmidl 2014, no. 123	Ilia A+B	Correspondence	business-related letter	Not mentioned	NN	NN
+P28915	P28765	addressee > mentioned in letter	addressee	mentioned in letter	T07969	BM 26874		Hackl, Jursa and Schmidl 2014, no. 123	Ilia A+B	Correspondence	business-related letter	Not mentioned	NN	NN
+P29767	P18436	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T07980	BM 27788		No publication	Atkuppu	Legal document	prebendary work contract	Borsippa	27.13.21 Darius I	 Darius I
+P29769	P18436	prebend-holder > prebend-performer	prebend-holder	prebend-performer	T07980	BM 27788		No publication	Atkuppu	Legal document	prebendary work contract	Borsippa	27.13.21 Darius I	 Darius I
+P00005	P29969	person to whom oath is sworn > oath taker	person to whom oath is sworn	oath taker	T07995	BM 30877		Bertin 2773	Egibi Nūr-Sîn	Legal document	summons	Huṣṣēti-ša-Bēl-ēṭir	17.13. Darius I	 Darius I
+P30040	P30037	person who deposits object > person to whom object is deposited	person who deposits object	person to whom object is deposited	T08021	BM 29067		not published	Bēlia’u	Legal document	deposit	Borsippa	17.1.07 Nabonidus	 Nabonidus
+P30040	P30030	donor > donee	donor	donee	T08023	BM 96171		not published	Bēlia’u	Legal document	gift	Borsippa	19.6.04 Cyrus	 Cyrus
+P30040	P30030	testator > heir	testator	heir	T08026	BM 28861		not published	Bēlia’u	Legal document	testament	Borsippa	18.13.08 Cyrus	 Cyrus
+P30040	P30037	testator > heir	testator	heir	T08026	BM 28861		not published	Bēlia’u	Legal document	testament	Borsippa	18.13.08 Cyrus	 Cyrus
+P30040	P30038	testator > heir	testator	heir	T08026	BM 28861		not published	Bēlia’u	Legal document	testament	Borsippa	18.13.08 Cyrus	 Cyrus
+P30044	P12340	donor > donee	donor	donee	T08036	BM 21975		not published	Bēlia’u	Legal document	gift	Borsippa	10.13.09 Nabonidus	 Nabonidus
