@@ -1,6 +1,6 @@
 ### Networks of Neo-Babylonian people
 
-The dataset contains a nodelist of all persons and an edgelist for persons attested in the same documents. That attribute data for the individuals comes from the Prosobab database. We have also build several directed networks from the relations and roles of the individuals as specified in Prosobab. Each edgelist contains one types of relations/roles with the attribute data about the social relations/roles and the tablets in which it they are attested. The nodelist of all persons can used with these edgelists.
+The dataset contains a nodelist of all persons and an edgelist for persons attested in the same documents. The attribute data for the individuals comes from the Prosobab database. We have also build several directed networks from the relations and roles of the individuals as specified in Prosobab. Each edgelist contains one types of relations/roles with the attribute data about the social relations/roles and the tablets in which it they are attested. The nodelist of all persons can used with these edgelists.
 
 #### Files
 - **individuals.tsv** = Nodelist of all persons in the network with the attribute data. Can be used with the edgelists.
