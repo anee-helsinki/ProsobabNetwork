@@ -9,7 +9,6 @@ Then from the command line we inserted the dump into the new database:
 ```Bash
 mysql -u <user> -p DB < prosobab-dump-2022-06-03.sql
 ```
-The password for the database is DB.
 
 From the MySql database, we extracted all persons, their attestations in documents, and the documents. We publish here three TSV-files (tab-separated-values):
 - Documents with all the information in the database + all the attestations (ids) of individuals in the document
