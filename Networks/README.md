@@ -4,7 +4,7 @@ The dataset contains a node list of all persons and an edge list for persons att
 
 #### Files
 - **connections.tsv** = Edge list of nodes (persons) attested in the same document. Weight is the number of documents in which two nodes co-occur. _Undirected_.
-- **individuals.tsv** = Node list of all persons in the network. Includes rich attribute data on each person. Can be used with the edge lists. This is the same file as /ProsobabData/Individuals.tsv, but two column titles have been changed: Personal ID = ID and Name = Label.
+- **individuals.tsv** = Node list of all persons in the network. Includes rich attribute data on each person. Can be used with the edge lists. This is the same file as /ProsobabData/Individuals.tsv, but two column titles have been changed: Personal ID = ID and Name = Label. See the readme file in /ProsobabData/ for more detailed notes.
 - **relations.tsv** = Edge list of nodes (persons) that have a relation such as 'X brother of Y'. _Directed_.
 - **legalRoles.tsv** = Edge list of nodes (persons) in legal role pairs with each other (e.g. judge and litigant or creditor and debtor). For the list of role pairs see SupplementaryFiles/RolePairs.csv. _Directed_.
 - **sameRoles.tsv** = Edge list of nodes (persons) that have the same role in the same document. For the list of roles see SupplementaryFiles/Roles.txt. _Directed both ways_.
