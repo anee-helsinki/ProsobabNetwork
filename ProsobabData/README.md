@@ -11,9 +11,9 @@ mysql -u <user> -p DB < prosobab-dump-2022-06-03.sql
 ```
 
 From the MySql database, we extracted all persons, their attestations in documents, and the documents. We publish here three TSV-files (tab-separated-values):
-- Documents with all the information in the database + all the attestations (ids) of individuals in the document
-- Individual persons with all the information in the database + all the attestations (ids) of the individual in texts
-- The attestation of individuals (with ids) in documents (with ids) with information on that occasion.
+- Attestations.tsv: The attestations of individuals (with ids) in documents (with ids) with information on that occasion.
+- Individuals.tsv: Individual persons with all the attribute information available in the database. We have also added attestation ids for each individual. This is the same file as /Networks/individuals.tsv, but two column titles have been changed: Personal ID = ID and Name = Label.
+- Tablets.tsv: Documents with all the information in the database + all the attestations (ids) of individuals in the document
 
 We extracted from the database all the information that is available also on the online service of Prosobab for each of the three views on the data. Since, in the Prosobab database, it is the documents that have the date with the name of the king, year, month, and day whenever feasable but online each individual has a date range, we extracted the earliest and latest documents for all the individuals and added their date as that persons min date and max date. 
 
