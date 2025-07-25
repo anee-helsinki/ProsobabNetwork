@@ -1,5 +1,5 @@
 ### Supplementary files used for creating the networks
 
-- **reignOrder** is a list of Neo-Babylonian kings and number given to them ???
 - **RolePairs.csv** is a list of role pairs such as seller-buyer or employer-employee. Was used to identify people in such roles in the same document.
 - **Roles.txt** is a list of roles that individuals may have in the Prosobab data. Was used to idenfify individuals who had the same role in the same document. Was also used to find persons with these roles and attested with a scribe or witness in the same document.
+- - **reignOrder** lists the kings who ruled in Babylonia in descending order from the oldest to the most recent. The numbers are included in the files /Networks/individuals.tsv and /ProsobabData/individuals.tsv and they can be used to easily filter a snapshot of tablets from a given period. A same number is given for the kings who ruled simultaneously (Assurbanipal and Kandalānu and Šamaš-šumu-ukīn) and for the kings and rebels at the accession of Darius (Bardia, Darius I, Nebuchadnezzar III, and Nebuchadnezzar IV) and in the second year of Xerxes (Xerxes I, Šamaš-erība, and Bēl-šimanni).
