@@ -1,4 +1,4 @@
-## Social Networks of Prosobab
+# Social Networks of Prosobab
 
 This repository contains the network of people and documents mined from the database dump of The Prosobab - an open access prosopography of Babylonia in the Neo-Babylonian and Persian periods (c. 620-330 BCE) https://prosobab.leidenuniv.nl/index.php. The database was created in a ERC Consolidator Grant project at the University of Leiden. The database can be browsed online but, as it is a university project, the continuance of the the site cannot be guaranteed. 
 
