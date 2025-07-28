@@ -1,4 +1,4 @@
-### To extract all the information on documents (Tablet in Prosobab) copy the following query to the MySql prompt. The name of the output file on the last line might have to be preceded by the path to the location where the file is saved.
+### To extract all the information on tablets (cuneiform documents) copy the following query to the MySql prompt. The name of the output file on the last line may need to be preceded by the path to the location where the file is saved.
 
 
 SELECT 'TabletID', 'Museum nr', 'Excavation_NR', 'Publication', 'Archive', 'Text type', 'Subtype', 'Main Objects', 'Place of writing', 'Babylonian date (D.M.Y King)', 'Julian date', 'Comments', 'CDLI', 'BM', 'Nabucco', 'Achemenet', 'Oracc', 'Author', 'Attestation ids'
