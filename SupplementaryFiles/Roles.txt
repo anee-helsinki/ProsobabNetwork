@@ -22,8 +22,6 @@ Donee
 Donor
 Lessee
 Lessor
-Creditor
-Debtor
 Manumitter
 Manumitted slave
 Bride
