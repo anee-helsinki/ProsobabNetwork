@@ -1,1 +1,3 @@
-#### The SQL Queries used for extracting the network from the Prosobab database
+# Queries
+
+The SQL queries used for extracting data from the Prosobab database.
