@@ -1,4 +1,4 @@
-### To extract all the information on individuals copy the following queries one by one to MySql prompt. The temporary tables have to be created first. The name of the output file on the last line might have to be preceded by the path to the location where the file is saved.
+### To extract all the information on individuals copy the following queries one by one to MySql prompt. The temporary tables have to be created first. The name of the output file on the last line may need to be preceded by the path to the location where the file is saved.
 
 
 create temporary table dates select distinct a.PID, t.KingID, LPAD(IF(t._Year = '', 0, t._Year), 2, '0') AS year, LPAD(IF(t._Month = '', '0', t._Month), 2, '0') AS month, LPAD(t._Day, 2, '0') AS day from e_attestations a
