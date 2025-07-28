@@ -1,8 +1,8 @@
-### Networks of Neo-Babylonian people
+# Networks of Neo-Babylonian people
 
 The dataset contains a node list of all persons and an edge list for persons attested in the same documents. The attribute data for the individuals comes from the Prosobab database. We have also built several directed networks from the relations and roles of the individuals as specified in Prosobab. Each edgelist contains one types of relations/roles with the attribute data about the social relations/roles and the tablets in which it they are attested. The node list of all persons can used with these edgelists.
 
-#### Files
+## Files
 - **connections.tsv** = Edge list of nodes (persons) attested in the same document. Weight is the number of documents in which two nodes co-occur. _Undirected_.
 - **individuals.tsv** = Node list of all persons in the network. Includes rich attribute data on each person. Can be used with the edge lists. This is the same file as /ProsobabData/Individuals.tsv, but two column titles have been changed: Personal ID = ID and Name = Label. See the readme file in /ProsobabData/ for more detailed notes.
 - **legalRoles.tsv** = Edge list of nodes (persons) in legal role pairs with each other (e.g. judge and litigant or creditor and debtor). For the list of role pairs see SupplementaryFiles/RolePairs.csv. _Directed_.
