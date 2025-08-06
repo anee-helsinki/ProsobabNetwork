@@ -1,4 +1,4 @@
-# Networks of Neo-Babylonian people
+# Node and edge lists for creating networks
 
 The dataset contains a node list of all persons and an edge list for persons attested in the same documents. The attribute data for the individuals comes from the Prosobab database. We have also built several directed networks from the relations and roles of the individuals as specified in Prosobab. Each edgelist contains one types of relations/roles with the attribute data about the social relations/roles and the tablets in which it they are attested. The node list of all persons can used with these edgelists.
 
@@ -9,4 +9,5 @@ The dataset contains a node list of all persons and an edge list for persons att
 - **relations.tsv** = Edge list of nodes (persons) that have a relation such as 'X brother of Y'. _Directed_.
 - **sameRoles.tsv** = Edge list of nodes (persons) that have the same role in the same document. For the list of roles see SupplementaryFiles/Roles.txt. _Directed both ways_.
 - **rolesWithWitnessesScribes.tsv** = Edge list between nodes (persons) that have a role from the SupplementaryFiles/Roles.txt list and nodes (persons) designated as witnesses or scribes who have been attested in the same document. _Directed_.
+- **twoMode.tsv** = Edge list of a two-mode network of persons and tablets. If a person is attested in a tablet, there is an edge between them. Persons are in the source column and tablets in the target column. _Undirected_.
 - **witnessScribeConnections.tsv** = Edge list between nodes (persons) designated as witnesses or scribes who have been attested in the same document. _Undirected_.
