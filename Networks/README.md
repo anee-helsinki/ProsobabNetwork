@@ -4,7 +4,7 @@ The dataset contains a node list of all persons and an edge list for persons att
 
 ## Files
 - **co-occurrencesPersons.tsv** = Edge list of nodes (persons) attested in the same document. Weight is the number of documents in which two nodes co-occur. _Undirected_.
-- **co-occurrencesTexts.tsv** = Edge list of texts linked by persons who are attested in two or more texts. Attestations ”king in date”, ”king in oath”, and ”king on coin” are excluded.
+- **co-occurrencesTexts.tsv** = Edge list of texts linked by persons who are attested in two or more texts. Attestations "king in date", "king in oath", and "king on coin" are excluded.
 - **individuals.tsv** = Node list of all persons in the network. Includes rich attribute data on each person. Can be used with the edge lists. This is the same file as /ProsobabData/Individuals.tsv, but two column titles have been changed: Personal ID = ID and Name = Label. See the readme file in /ProsobabData/ for more detailed notes.
 - **legalRoles.tsv** = Edge list of nodes (persons) in legal role pairs with each other (e.g. judge and litigant or creditor and debtor). For the list of role pairs see SupplementaryFiles/RolePairs.csv. _Directed_.
 - **relations.tsv** = Edge list of nodes (persons) that have a relation such as "X brother of Y". Relations such as "Broken/Unclear Gimil-Šamaš" indicate that there is a relation mentioned in the text but its nature remains unclear. _Directed_.
