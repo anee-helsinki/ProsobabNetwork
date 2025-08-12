@@ -12,6 +12,7 @@ A dump of Prosobab's relational SQL database was published in the DANS research 
 
 ## References
 Waerzeggers, C., Groß, M., & et al. (2019). Prosobab: Prosopography of Babylonia (c. 620–330 BCE). Leiden University. https://prosobab.leidenuniv.nl.
+
 Waerzeggers, C., & Groß, M. (2022). Prosobab (version 1.0). DANS Data Station Archaeology. https://doi.org/10.17026/dans-zvn-eece.
 
 <p align="center">
