@@ -2,6 +2,8 @@
 
 This folder contains node lists of all persons and all cuneiform tablets attested in the dataset. The attribute data for the persons and tablets comes from the Prosobab database. The folder also contains edge lists that record the links between persons attested in the same document and the links between texts in which the same person occurs. These edge lists can be used to create undirected co-occurrence networks. We have also built several directed networks using the relations and roles of the individuals as specified in Prosobab. Each edge list presents a type of relations/roles, including attribute data about the social relations/roles and the tablets in which the roles are documented. The node list of all persons can also be used with the directed edge lists.
 
+To aid automatic processing of the data, Babylonian months are given running numbers from first to last. This means that intercalary months (Ululu and Addaru, normally referred to as VIb and XIIb) affect the numbering. In this data, intercalary Ululu (normally VIb) is month 7, Tašritu (normally VII) is month 8, and so forth. Intercalary Addaru (XIIb) is thus month 14. The numbering follows the same system regardless of the presence or absence of an intercalary month in a given year.
+
 ## Files
 - **co-occurrencesPersons.tsv** = Edge list of nodes (persons) attested in the same document. Each edge has information on the tablet in which the two persons co-occur. _Undirected_.
 - **co-occurrencesPersons_simple.tsv** = Edge list of nodes (persons) attested in the same documents. Parallel edges are collapsed, and edge weight is the number of documents in which two nodes co-occur. _Undirected_.
