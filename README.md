@@ -5,7 +5,7 @@ This repository contains data that has been mined from the database dump of Pros
 A dump of Prosobab's relational SQL database was published in the DANS research data repository (https://doi.org/10.17026/dans-zvn-eece). From the database, we extracted information on all cuneiform documents, persons, and their attestations in documents. From this data, we created several node and edge lists that are ready-made for social network analysis.
 
 ## Folders
-- Networks: Node and edge lists for social networks analysis.
+- Networks: node and edge lists for social networks analysis.
 - ProsobabData: the data we extracted from the database, available as an Excel worksheet and TSV files.
 - Queries: the SQL queries used for extracting data from the database.
 - SupplementaryFiles: various files used in data processing.
