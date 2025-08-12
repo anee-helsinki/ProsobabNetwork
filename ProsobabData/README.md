@@ -10,7 +10,7 @@ Using the command line, we inserted the dump into the new database:
 mysql -u <user> -p DB < prosobab-dump-2022-06-03.sql
 ```
 
-From the MySql database, we extracted all individuals, their attestations in tablets (cuneiform documents), and the tablets. We publish here three TSV files (tab-separated values):
+From the MySql database, we extracted all individuals, their attestations in tablets (cuneiform documents), and the tablets. We publish the extracted data here in two formats, as three TSV files (tab-separated values) and as an Excel worksheet:
 - Attestations.tsv: The attestations of individuals (with IDs) in tablets (with IDs) with information on that attestation.
 - Individuals.tsv: Individual persons with all the attribute information available in the database. We have also added attestation IDs for each individual. This is the same file as /Networks/individuals.tsv, but two column titles have been changed: Personal ID = ID and Name = Label.
 - Tablets.tsv: Tablets with all the metadata in the database + all the attestation IDs of individuals in the tablet.
