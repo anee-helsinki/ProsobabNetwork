@@ -4,7 +4,7 @@ This folder contains node lists of all persons and all cuneiform tablets atteste
 
 ## Files
 - **co-occurrencesPersons.tsv** = Edge list of nodes (persons) attested in the same document. Each edge has information on the tablet in which the two persons co-occur. _Undirected_.
-- **co-occurrencesPersons_simple.tsv** = Edge list of nodes (persons) attested in the same documents. Weight is the number of documents in which two nodes co-occur. _Undirected_.
+- **co-occurrencesPersons_simple.tsv** = Edge list of nodes (persons) attested in the same documents. Parallel edges are collapsed, and edge weight is the number of documents in which two nodes co-occur. _Undirected_.
 - ~~**co-occurrencesTexts.tsv** = Edge list of texts linked by persons who are attested in two or more texts. Each edge has information on the individual linking the tabelts. Attestations "king in date", "king in oath", and "king on coin" are excluded. _Undirected_.~~ The file can be found in our Zenodo repository.
 - **individuals.tsv** = Node list of all persons in the network. Includes rich attribute data on each person. Can be used with the edge lists. This is the same file as /ProsobabData/Individuals.tsv, but two column titles have been changed: Personal ID = ID and Name = Label. See the readme file in /ProsobabData/ for more detailed notes.
 - **legalRoles.tsv** = Edge list of nodes (persons) who are connected by related legal roles in the same text (e.g., judge and litigant or creditor and debtor). For the list of role pairs, see SupplementaryFiles/RolePairs.tsv. _Directed_.
