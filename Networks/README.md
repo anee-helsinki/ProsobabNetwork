@@ -1,6 +1,6 @@
 # Node and edge lists for creating networks
 
-The dataset contains a node list of all persons and an edge list for persons attested in the same documents. The attribute data for the individuals comes from the Prosobab database. We have also built several directed networks from the relations and roles of the individuals as specified in Prosobab. Each edgelist contains one types of relations/roles with the attribute data about the social relations/roles and the tablets in which it they are attested. The node list of all persons can used with these edgelists.
+This folder contains node lists of all persons and all cuneiform tablets attested in the dataset. The attribute data for the persons and tablets comes from the Prosobab database. The folder also contains edge lists that record the links between persons attested in the same document and the links between texts in which the same person occurs. These edge lists can be used to create undirected co-occurrence networks. We have also built several directed networks using the relations and roles of the individuals as specified in Prosobab. Each edge list presents a type of relations/roles, including attribute data about the social relations/roles and the tablets in which the roles are documented. The node list of all persons can also be used with the directed edge lists.
 
 ## Files
 - **co-occurrencesPersons.tsv** = Edge list of nodes (persons) attested in the same document. Each edge has information on the tablet in which the two persons co-occur. _Undirected_.
