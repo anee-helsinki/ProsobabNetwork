@@ -1,6 +1,6 @@
 # Social Networks of Prosobab
 
-This repository contains data that has been mined from the database dump of Prosobab (Waerzeggers et al., 2019; Waerzeggers & Groß, 2022). The database was created by the ERC Consolidator Grant project "Persia and Babylonia" at Leiden University. The database can be browsed online, but, as it is a university project, the continuity of the website cannot be guaranteed. 
+This repository contains data that has been mined from the database dump of Prosobab (Waerzeggers et al., 2019; Waerzeggers & Groß, 2022). The database was created by the ERC Consolidator Grant project "Persia and Babylonia" at Leiden University.
 
 A dump of Prosobab's relational SQL database was published in the DANS research data repository (https://doi.org/10.17026/dans-zvn-eece). From the database, we extracted information on all cuneiform documents, persons, and their attestations in documents. From this data, we created several node and edge lists that are ready-made for social network analysis.
 
