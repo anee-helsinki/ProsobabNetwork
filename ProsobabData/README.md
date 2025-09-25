@@ -3,7 +3,7 @@
 A dump of the SQL database was published by Prosobab in DANS (Waerzeggers and Groß 2022). To access the data in the dump we created an empty database in MySql:
 
 ```sql
-CREATE DATABASE DB
+CREATE DATABASE DB;
 ```
 Using the command line, we inserted the dump into the new database:
 ```Bash
