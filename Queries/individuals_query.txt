@@ -1,6 +1,9 @@
 ### To extract all the information on individuals copy the following queries one by one to MySql prompt. The temporary tables have to be created first. The name of the output file on the last line may need to be preceded by the path to the location where the file is saved.
 
+##### In case you redo from the beginning, remove the temporary table
+DROP TABLE IF EXISTS dates;
 
+###### Create a temporary table with the dates in each of the attestations
 create temporary table dates select distinct a.PID, t.KingID, LPAD(IF(t._Year = '', 0, t._Year), 2, '0') AS year, LPAD(IF(t._Month = '', '0', t._Month), 2, '0') AS month, LPAD(t._Day, 2, '0') AS day from e_attestations a
 left join e_tablets t on t.TabletID = a.TabletID 
 where a.PID is not NULL 
