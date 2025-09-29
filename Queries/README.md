@@ -23,7 +23,14 @@ secure_file_priv               = '<path_to_folder>'
 ```
 The same path had to be used when writing the queries to file. These may differ depending on the computer and MySql version.
 
-We executed the queries in the files in this folder. First one needs to create some temporary tables, i.e., to execute the queries in file CreateTemporaryTables.txt. The order of the other files is free.
+We executed the queries in the files in this folder. First one needs to create some temporary tables, i.e., to execute the queries in file CreateTemporaryTables.txt. The order of the other files is free. Note that extracting the individuals takes a long time, about an hour on a MacBook Air with Sequoia.
+
+After creating the files we changed the \N results caused by empty sets or null values with NN on the command line with
+```bash
+sed 's/\\N/NN/g' tablets_minedProsobab.tsv > Tablets.tsv
+```
+for all three files separately. This might be done differently on a Windows computer. The resulting files are in folder ProsobabData.
+
 
 #### Technical details
 
