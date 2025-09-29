@@ -1,8 +1,6 @@
-### To extract all the information on individuals copy the following queries one by one to MySql prompt. The temporary tables must be created first as they are needed in the following steps. The name of the output file on the last line may need to be preceded by the path to the location WHERE the file is saved.
+### To extract all the information on individuals copy the following queries one by one to MySql prompt. The temporary tables must be created first as they are needed in the following steps. The queries have been created with MySql 9.2 and may need to be adjusted if used with other versions.
 
-###You may need to add the path to folder you want to save the final TSV.file to into the file .my.conf.
-
-
+### The name of the output file on the last line may need to be preceded by the path to the location WHERE the file is saved. You might also need to add the path to folder you want to save the final TSV.file to into the file .my.conf.
 
 
 ### Select all the individuals with their information (the first line gives the headlines) and write the information on file.
@@ -66,7 +64,7 @@ LEFT JOIN e_tablets t ON a.TabletID = t.TabletID
 LEFT JOIN relations r ON r.PID = i.PID
 LEFT JOIN c_archives ar ON ar.ArchiveID = t.ArchiveID
 LEFT JOIN c_familyunits f ON f.FamilyUnitID = ar.FamilyUnitID
-INTO OUTFILE '/Users/hwikgren/Documents/SeDAT/prosobab-v20220613/Artikkeli/Reviews/individuals_minedProsobab.tsv';
+INTO OUTFILE '<path_to_folder>/individuals_minedProsobab.tsv';
 
 
 
