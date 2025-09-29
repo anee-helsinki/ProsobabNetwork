@@ -27,4 +27,4 @@ We executed the queries in the files in this folder. First one needs to create s
 
 #### Technical details
 
-We used _MySql Ver 9.2.0 for macos15.2 on arm64_ on a _MacBook Air (M3) running on MacOS Sequoia 15.7_.
+We used _MySql Ver 9.2.0 for macos15.2 on arm64_ on a _MacBook Air (M3) running on MacOS Sequoia 15.7_. We used the default setting, e.g. character set utf8mb4. We only changed the two setting defined in the beginning of the CreateTemporaryTables.txt, i.e. group_concat_max_len = 150000 and sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY','')).
