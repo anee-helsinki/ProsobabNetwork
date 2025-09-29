@@ -1,0 +1,161 @@
+### These scripts need to executed with MySql BEFORE extracting the data from Prosobab with the queries in the other files.
+
+### Once you have created the Prosobab database and started using it with mysql> USE <database>, you can choose any folder to extract the data. All these command are executed from the MySql prompt (mysql>).
+
+
+### To be able to handle large concatenations set their length and deactivate the grouping for the duration of the session (i.e. until the mysql is started again.
+### MySql now requires group by and the queries are made so that this would be satisfied. However, extracting all the information for the individuals is a huge effort and with using group by our MySql ran out of memory. So we deactivated the only_full_group_by mode.
+SET SESSION group_concat_max_len = 150000;
+SET SESSION sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+
+### You can copy the commands (lines without ###) from here. YOU CAN EXECUTE SEVERAL QUERIES AT ONCE (a query end with ;) BUT REMEMBER TO PRESS ENTER TO EXECUTE THE LAST COMMAND AS WELL
+
+### In case you redo from the beginning, remove the temporary tables
+DROP TABLE IF EXISTS ascDates;
+DROP TABLE IF EXISTS minDates;
+DROP TABLE IF EXISTS minDates2;
+DROP TABLE IF EXISTS descDates;
+DROP TABLE IF EXISTS maxDates;
+DROP TABLE IF EXISTS maxDates2;
+DROP TABLE IF EXISTS counts;
+DROP TABLE IF EXISTS relations;
+DROP TABLE IF EXISTS ownership;
+DROP TABLE IF EXISTS reignOrder;
+DROP TABLE IF EXISTS reignOrder2;
+
+### Create temporary table with all the dates of individuals in ascending order by reign, year, and month)
+create temporary table ascDates select distinct a.PID, t.KingID, King, LPAD(IF(t._Year = '', 0, t._Year), 2, '0') AS year, LPAD(IF(t._Month = '', '0', t._Month), 2, '0') AS month, LPAD(t._Day, 2, '0') AS day 
+from e_attestations a
+left join e_tablets t on t.TabletID = a.TabletID 
+left join s_kings k on k.KingID = t.KingID
+where a.PID is not NULL and t.KingID != 0
+order by a.PID, t.KingID, year, month;
+
+### MySql can only open temporary tables once, so lets make copies of ascDates table
+CREATE TABLE minDates AS SELECT * FROM ascDates;
+CREATE TABLE minDates2 AS SELECT * FROM ascDates;
+
+
+
+### Create temporary table with all the dates of individuals in desceding order by reign, year, and month)
+create temporary table descDates select distinct a.PID, t.KingID, King, LPAD(IF(t._Year = '', 0, t._Year), 2, '0') AS year, LPAD(IF(t._Month = '', '0', t._Month), 2, '0') AS month, LPAD(t._Day, 2, '0') AS day 
+from e_attestations a
+left join e_tablets t on t.TabletID = a.TabletID 
+left join s_kings k on k.KingID = t.KingID
+where a.PID is not NULL and t.KingID != 0
+order by a.PID ASC, t.KingID DESC, year DESC, month DESC;
+
+### MySql can only open temporary tables once, so lets make copies of descDates table
+CREATE TABLE maxDates AS SELECT * FROM descDates;
+CREATE TABLE maxDates2 AS SELECT * FROM descDates;
+
+
+
+### Create temporary table with the number of attestations for each individual
+create temporary table counts select PID, count(*) as count from e_attestations 
+where PID is not NULL 
+group by PID 
+order by PID;
+
+
+
+### Create temporary table with all the different relations attested for each individual. Add also the Personal ID of the other person in the relation.
+create temporary table relations select a1.PID, GROUP_CONCAT(DISTINCT (CONCAT_WS(' ', rt.RelType, CONCAT_WS(', ', a2._Name, a2.PID))) SEPARATOR ';') AS Relations
+	from e_attestations a1
+	left join x_attestedrelations ar on ar.AttPID1 = a1.AttPID
+	left join s_relationtypes rt on rt.RelTypeID = ar.AttRelTypeID
+	left join e_attestations a2 on ar.AttPID2 = a2.AttPID
+	group by a1.PID
+	order by a1.PID;
+
+
+
+### in order to get a list of things owned by each individual, create a empty temporary table
+create temporary table ownership (
+	PID int,
+	Prebend varchar(255),
+	House varchar(255),
+	Shop varchar(255),
+	Workshop varchar(255),
+	Garden varchar(255),
+	Field varchar(255),
+	Slave varchar(255),
+	Agent varchar(255),
+	Cattle varchar(255),
+	Small varchar(255),
+	Donkey varchar(255),
+	Horse varchar(255),
+	Oxen varchar(255),
+	Land varchar(255),
+	Boat  varchar(255),
+         Other varchar(255)
+);
+
+### Insert the personal IDs of individuals into the table
+insert into ownership(PID)
+	select distinct PID from e_attestations;
+
+### Insert the owned objects if attested for a person
+### this can be done line by line or in batches (just press enter when you see the last command of the group)
+update ownership o, e_attestations a SET o.Prebend = 'Prebend' where o.PID in (select distinct PID from e_attestations where Prebend != 0);
+update ownership o, e_attestations a SET o.House = 'House' where o.PID in (select distinct PID from e_attestations where House != 0);
+update ownership o, e_attestations a SET o.Shop = 'Shop' where o.PID in (select distinct PID from e_attestations where Shop != 0);
+update ownership o, e_attestations a SET o.Workshop = 'Temple workshop' where o.PID in (select distinct PID from e_attestations where TempleWorkshop != 0);
+update ownership o, e_attestations a SET o.Garden = 'Garden' where o.PID in (select distinct PID from e_attestations where Garden != 0);
+update ownership o, e_attestations a SET o.Field = 'Field' where o.PID in (select distinct PID from e_attestations where Field != 0);
+update ownership o, e_attestations a SET o.Slave = 'Slave' where o.PID in (select distinct PID from e_attestations where Slave != 0);
+update ownership o, e_attestations a SET o.Agent = 'Agent' where o.PID in (select distinct PID from e_attestations where SlaveAgent != 0);
+update ownership o, e_attestations a SET o.Cattle = 'Cattle' where o.PID in (select distinct PID from e_attestations where Cattle != 0);
+update ownership o, e_attestations a SET o.Small = 'Small Cattle' where o.PID in (select distinct PID from e_attestations where SmallCattle != 0);
+update ownership o, e_attestations a SET o.Donkey = 'Donkeys' where o.PID in (select distinct PID from e_attestations where Donkeys!= 0);
+update ownership o, e_attestations a SET o.Horse = 'Horse' where o.PID in (select distinct PID from e_attestations where Horse != 0);
+update ownership o, e_attestations a SET o.Oxen = 'Plough oxen' where o.PID in (select distinct PID from e_attestations where PloughOxen != 0);
+update ownership o, e_attestations a SET o.Land = 'Land' where o.PID in (select distinct PID from e_attestations where Land != 0);
+update ownership o, e_attestations a SET o.Boat = 'Boat' where o.PID in (select distinct PID from e_attestations where Boat != 0);
+update ownership o, e_attestations a SET o.Other = 'Other' where o.PID in (select distinct PID from e_attestations where Other != 0);
+
+
+### We have created a list SupplementaryFiles/ReignOrder.tsv that lists the kings who ruled in Babylonia in descending order from the oldest to the most recent.
+### To use this list we create a temporary table
+create temporary table reignOrder (
+ID int NOT NULL AUTO_INCREMENT,
+Number int,
+Name varchar(255),
+PRIMARY KEY (ID)
+);
+
+### Insert the kings with their order numbers in the table
+insert into reignOrder (Number, Name) values (1, "Aššūr-nādin-šumi");
+insert into reignOrder (Number, Name) values (2, "Esarhaddon");
+insert into reignOrder (Number, Name) values (3, "Assurbanipal");
+insert into reignOrder (Number, Name) values (3, "Šamaš-šumu-ukīn");
+insert into reignOrder (Number, Name) values (3, "Kandalānu");
+insert into reignOrder (Number, Name) values (4, "Sîn-šarru-iškun");
+insert into reignOrder (Number, Name) values (5, "Nabopolassar");
+insert into reignOrder (Number, Name) values (6, "Nebuchadnezzar II");
+insert into reignOrder (Number, Name) values (7, "Amīl-Marduk");
+insert into reignOrder (Number, Name) values (8, "Neriglissar");
+insert into reignOrder (Number, Name) values (9, "Lâbâši-Marduk");
+insert into reignOrder (Number, Name) values (10, "Nabonidus");
+insert into reignOrder (Number, Name) values (11, "Cyrus");
+insert into reignOrder (Number, Name) values (12, "Cambyses");
+insert into reignOrder (Number, Name) values (16, "Bardia");
+insert into reignOrder (Number, Name) values (16, "Nebuchadnezzar III");
+insert into reignOrder (Number, Name) values (16, "Nebuchadnezzar IV");
+insert into reignOrder (Number, Name) values (16, "Darius I");
+insert into reignOrder (Number, Name) values (19, "Xerxes I");
+insert into reignOrder (Number, Name) values (19, "Šamaš-erība");
+insert into reignOrder (Number, Name) values (19, "Bēl-šimanni");
+insert into reignOrder (Number, Name) values (20, "Artaxerxes I");
+insert into reignOrder (Number, Name) values (21, "Darius II");
+insert into reignOrder (Number, Name) values (22, "Artaxerxes II");
+insert into reignOrder (Number, Name) values (23, "Artaxerxes III");
+insert into reignOrder (Number, Name) values (24, "Darius III");
+insert into reignOrder (Number, Name) values (25, "Alexander III");
+insert into reignOrder (Number, Name) values (26, "Philip Arrhidaeus");
+
+### MySql can only open temporary tables once, so lets make a copy of the reignOrder table
+CREATE TABLE reignOrder2 AS SELECT * FROM reignOrder;
+
+
+

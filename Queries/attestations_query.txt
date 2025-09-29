@@ -1,11 +1,12 @@
 ### To extract all the information on the attestations of individuals on different tablets copy the following query to the MySql prompt. The name of the output file on the last line may need to be preceded by the path to the location where the file is saved.
 
-SELECT 'Attestation ID', 'Name', 'Name spelling', 'Other name', 'Patronym', 'Patronym spelling', 'Other patronym', 'Other patronym spelling', 'Family name', 'Family name spelling', 'Gender', 'Is child', 'Titles', 'Possessions', 'Legal roles', 'Relations', 'Comments', 'PID', 'PID probability(0-3)/Comment', 'Museum no.', 'Date (D.M.Y King)', 'Place of writing', 'Archive', 'Publication', 'Author', 'Tablet ID'
+SELECT 'Attestation ID', 'Orig. attestation ID', 'Name', 'Name spelling', 'Other name', 'Patronym', 'Patronym spelling', 'Other patronym', 'Other patronym spelling', 'Family name', 'Family name spelling', 'Gender', 'Is child', 'Titles', 'Possessions', 'Legal roles', 'Relations', 'Comments', 'Orig. personal ID', 'Personal ID', 'PID probability(0-3)/Comment', 'Museum no.', 'Date (D.M.Y King)', 'Reign', 'Reign order', 'Place of writing', 'Archive', 'Publication', 'Author', 'Tablet ID', 'Orig. tablet ID'
 UNION
-SELECT a.ATTPID,
+SELECT distinct concat('A', lpad(a.ATTPID, 5,0)),
+	a.ATTPID,
 	a._Name,
 	a.NameSpelling,
-	a.OtherName,
+	REGEXP_REPLACE(a.OtherName, '\t$', ''),
 	a.Patronym,
 	a.PatronymSpelling,
 	a.Otherpatronym,
@@ -35,19 +36,26 @@ SELECT a.ATTPID,
 	from e_attestations ats where ats.AttPID = a.AttPID) AS 'Possessions',
 	(SELECT GROUP_CONCAT(IFNULL(r.Role, '-') SEPARATOR '; ') from s_roles r left join x_attestedroles attr on r.RoleID = attr.RoleID where attr.AttPID = a.AttPID GROUP BY a.AttPID) AS 'Roles',
 	(SELECT IFNULL(GROUP_CONCAT(CONCAT(re.RelType, ' ', ats._Name, ' ', ats.PID) SEPARATOR '; '), '-') from s_relationtypes re left join x_attestedrelations atre on atre.AttRelTypeID = re.RelTypeID left join e_attestations ats on ats.AttPID = atre.AttPID2 where atre.AttPID1 = a.AttPID GROUP BY a.AttPID) as 'Relations',
-	a.comments,
+	REGEXP_REPLACE(REPLACE(REPLACE(REGEXp_REPLACE(a.comments, '[\”\"]', ''), '\r', ''), '\n', ''), '\t', '') AS comments,
+	concat('P', lpad(a.PID, 5,0)),
 	a.PID,
-	CONCAT(a.Probability, ' /', IF(a.PIDComment = '', '-', a.PIDComment)),
-	t.MuseumNr,
+	IF(a.PIDComment = '', '-', REPLACE(REPLACE(a.PIDComment, '\r', ''), '\n', '')),
+	REGEXP_REPLACE(t.MuseumNr, '\t$', ''),
 	CONCAT(CONCAT_WS('.', t._Day, t._Month, t._Year), ' ', k.King) AS 'Date',
+	k.King,
+	(select ro.Number from reignOrder ro where ro.Name = k.King),
 	l.locName,
 	IF(t.ArchiveID IS NULL, 'Not mentioned', arch.ArchiveName),
 	t.PublicationTablet,
 	t.Author,
+	CONCAT('T', lpad(t.TabletID, 5,0)),
 	t.TabletID
 from e_attestations a
 LEFT JOIN e_tablets t ON a.TabletID = t.TabletID
 LEFT JOIN s_kings k ON t.KingID = k.KingID
 LEFT JOIN s_localities l ON t.PlaceOfWritingID = l.localityID
 LEFT JOIN c_archives arch ON t.ArchiveID = arch.ArchiveID
-INTO OUTFILE 'attestations_minedProsobab.tsv';
+INTO OUTFILE '/Users/hwikgren/Documents/SeDAT/prosobab-v20220613/Artikkeli/Reviews/attestations_minedProsobab.tsv';
+
+
+

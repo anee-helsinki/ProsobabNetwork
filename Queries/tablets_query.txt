@@ -1,23 +1,27 @@
-### To extract all the information on tablets (cuneiform documents) copy the following query to the MySql prompt. The name of the output file on the last line may need to be preceded by the path to the location where the file is saved.
+### To extract all the information on tablets (cuneiform documents) copy the following query to the MySql prompt. The name of the output file on the last line may need to be preceded by the path to the location WHERE the file is saved.
 
 
-SELECT 'TabletID', 'Museum nr', 'Excavation_NR', 'Publication', 'Archive', 'Text type', 'Subtype', 'Main Objects', 'Place of writing', 'Babylonian date (D.M.Y King)', 'Julian date', 'Comments', 'CDLI', 'BM', 'Nabucco', 'Achemenet', 'Oracc', 'Author', 'Attestation ids'
+SELECT 'TabletID', 'Orig. TabletID', 'Museum nr', 'Excavation_NR', 'Publication', 'Archive', 'Text type', 'Subtype', 'Main Objects', 'Place of writing', 'Babylonian date (D.M.Y King)', 'Reign', 'Reign order', 'Julian date', 'Comments', 'CDLI', 'BM', 'Nabucco', 'Achemenet', 'Oracc', 'Author', 'Attestation ids', 'Orig. Attestation ids'
 UNION
-SELECT t.TabletID, 
-t.MuseumNr, 
+SELECT distinct concat('T', lpad(t.TabletID, 5,0)),
+t.TabletID, 
+REGEXP_REPLACE(t.MuseumNr, '\t$', ''), 
 t.Excavation_NR, 
 t.PublicationTablet, 
 ar.ArchiveName, ty.Type, 
-(SELECT DISTINCT GROUP_CONCAT(DISTINCT stype.SubTypeGroup SEPARATOR '; ') from s_subtypes stype left join x_mentionedsubtypesobjects mstype ON stype.SubTypeID = mstype.SubTypeID where mstype.TabletID = t.TabletID) AS subtype,
-(SELECT DISTINCT GROUP_CONCAT(DISTINCT ob.Object SEPARATOR '; ') from s_objects ob left join x_mentionedsubtypesobjects mst ON mst.ObjectID = ob.ObjectID where mst.TabletID = t.TabletID) AS objects,
+(SELECT DISTINCT GROUP_CONCAT(DISTINCT stype.SubTypeGroup SEPARATOR '; ') FROM s_subtypes stype left join x_mentionedsubtypesobjects mstype ON stype.SubTypeID = mstype.SubTypeID WHERE mstype.TabletID = t.TabletID) AS subtype,
+(SELECT DISTINCT GROUP_CONCAT(DISTINCT ob.Object SEPARATOR '; ') FROM s_objects ob left join x_mentionedsubtypesobjects mst ON mst.ObjectID = ob.ObjectID WHERE mst.TabletID = t.TabletID) AS objects,
 loc.LocName, 
 CONCAT(t._day, ".", t._month, ".", t._year, " ", k.King), 
+k.King,
+(SELECT ro.Number FROM reignOrder ro WHERE ro.Name = k.King),
 t.JulianDate, 
-t.Comments, 
+REPLACE(REPLACE(t.comments, '\r', ''), '\n', '') AS comments, 
 t.CDLI_URL, 
 t.Britich_Museum_URL, 
 t.Nabucco_URL, t.Achemenet_URL, t.OrAcc_URL, 
-t.Author, 
+t.Author,
+GROUP_CONCAT(DISTINCT concat('A', lpad(a.AttPID, 5, 0)) SEPARATOR '; '),
 GROUP_CONCAT(DISTINCT a.AttPID SEPARATOR '; ')
 FROM e_tablets t
 LEFT JOIN c_archives ar ON ar.ArchiveID = t.ArchiveID 
@@ -26,6 +30,7 @@ LEFT JOIN s_localities loc ON loc.LocalityID = t.PlaceOfWritingID
 LEFT JOIN s_kings k ON k.KingID = t.KingID
 LEFT JOIN e_attestations a ON a.TabletID = t.TabletID
 GROUP BY t.TabletID, t.MuseumNr, t.Excavation_NR, t.PublicationTablet, ar.ArchiveName, ty.Type, subtype
-INTO OUTFILE ‘tablets_minedProsobab.tsv'
+INTO OUTFILE '/Users/hwikgren/Documents/SeDAT/prosobab-v20220613/Artikkeli/Reviews/tablets_minedProsobab.tsv';
 
 
+LEFT JOIN reignOrder ro ON ro.Name = k.King
