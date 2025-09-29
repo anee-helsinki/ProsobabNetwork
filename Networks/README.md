@@ -16,3 +16,20 @@ To aid automatic processing of the data, Babylonian months are given running num
 - **tablets.tsv** = Node list of all tablets in the network. Includes rich attribute data on each text. Can be used with the co-occurrencesTexts.tsv edge list. This is the same file as /ProsobabData/Tablets.tsv, but two column titles have been changed: Personal ID = ID and Museum no. = Label. See the readme file in /ProsobabData/ for more detailed notes.
 - **twoMode.tsv** = Edge list of a two-mode network of persons and tablets. If a person is attested in a tablet, there is an edge between them. Persons are in the source column and tablets in the target column. _Undirected_.
 - **witnessScribeConnections.tsv** = Edge list between witnesses (witness-witness) and witnesses and scribe (witness-scribe) attested in the same document. _Bidirectional from A to B and B to A_.
+
+## Technical details about producing the networks
+
+Programmin language: Java JDK 11
+
+Files used are in folder ProsobabData: tablets_minedProsobab.tsv, individuals_minedProsobab.tsv, and attestations_minedProsobab.tsv
+and in the folder SupplementaryFiles: RolePairs.tsv, Roles.txt, and reignOrder.tsv.
+
+The script reads the files and stores the information in TreeMaps and an ArrayList (roles). 
+- The TreeMaps for tablets and individuals contain the ID and all the information needed for each tablet/individual.
+- The _attestations_ TreeMap has a tablet ID as a key and all the different roles found in the document and the personal IDs for the holders of each role (e.g. tabletID: role1(personalID1, personalID1), role2(personalID3)).
+- The _cooccurrences_ TreeMap has tablet IDs and the personal ID of all the individuals attested in each of the tablets.
+- The _coTablets_ TreeMap contains personal IDs and all the tablet IDs for each individual.
+- The _relations_ TreeMap has tablet IDs and all the different kinds of relations attested in the tablet and for each of the relations the individuals in the format personalID1 > personalID2
+- The _rolesInAttestations_ TreeMap contains tablet and personal IDs with the role mentioned (e.g. tabletID;personalID, role)
+
+The networks are printed to file using the TreeMaps, adding various informations from the tablet and individual TreeMaps.
