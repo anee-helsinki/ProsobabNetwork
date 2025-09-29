@@ -27,4 +27,4 @@ We executed the queries in the files in this folder. First one needs to create s
 
 #### Technical details
 
-We used MySql Ver 9.2.0 for macos15.2 on arm64 on MacBook Air (M3) running on MacOS Sequoia 15.7.
+We used _MySql Ver 9.2.0 for macos15.2 on arm64_ on a _MacBook Air (M3) running on MacOS Sequoia 15.7_.
