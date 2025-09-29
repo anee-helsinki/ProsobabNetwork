@@ -1,4 +1,6 @@
-### To extract all the information on tablets (cuneiform documents) copy the following query to the MySql prompt. The name of the output file on the last line may need to be preceded by the path to the location WHERE the file is saved.
+### To extract all the information on tablets (cuneiform documents) copy the following query to the MySql prompt. The queries have been created with MySql 9.2 and may need to be adjusted if used with other versions.
+
+### The name of the output file on the last line may need to be preceded by the path to the location WHERE the file is saved. You might also need to add the path to folder you want to save the final TSV.file to into the file .my.conf.
 
 
 SELECT 'TabletID', 'Orig. TabletID', 'Museum nr', 'Excavation_NR', 'Publication', 'Archive', 'Text type', 'Subtype', 'Main Objects', 'Place of writing', 'Babylonian date (D.M.Y King)', 'Reign', 'Reign order', 'Julian date', 'Comments', 'CDLI', 'BM', 'Nabucco', 'Achemenet', 'Oracc', 'Author', 'Attestation ids', 'Orig. Attestation ids'
@@ -30,7 +32,5 @@ LEFT JOIN s_localities loc ON loc.LocalityID = t.PlaceOfWritingID
 LEFT JOIN s_kings k ON k.KingID = t.KingID
 LEFT JOIN e_attestations a ON a.TabletID = t.TabletID
 GROUP BY t.TabletID, t.MuseumNr, t.Excavation_NR, t.PublicationTablet, ar.ArchiveName, ty.Type, subtype
-INTO OUTFILE '/Users/hwikgren/Documents/SeDAT/prosobab-v20220613/Artikkeli/Reviews/tablets_minedProsobab.tsv';
+INTO OUTFILE '<path_to_folder>/tablets_minedProsobab.tsv';
 
-
-LEFT JOIN reignOrder ro ON ro.Name = k.King
