@@ -1,4 +1,6 @@
-### To extract all the information on the attestations of individuals on different tablets copy the following query to the MySql prompt. The name of the output file on the last line may need to be preceded by the path to the location where the file is saved. The queries have been created with MySql 9.2 and may need to be adjusted if used with other versions.
+### To extract all the information on the attestations of individuals on different tablets copy the following query to the MySql prompt. The queries have been created with MySql 9.2 and may need to be adjusted if used with other versions.
+
+### The name of the output file on the last line may need to be preceded by the path to the location WHERE the file is saved. You might also need to add the path to folder you want to save the final TSV.file to into the file .my.conf.
 
 SELECT 'Attestation ID', 'Orig. attestation ID', 'Name', 'Name spelling', 'Other name', 'Patronym', 'Patronym spelling', 'Other patronym', 'Other patronym spelling', 'Family name', 'Family name spelling', 'Gender', 'Is child', 'Titles', 'Possessions', 'Legal roles', 'Relations', 'Comments', 'Orig. personal ID', 'Personal ID', 'PID probability(0-3)/Comment', 'Museum no.', 'Date (D.M.Y King)', 'Reign', 'Reign order', 'Place of writing', 'Archive', 'Publication', 'Author', 'Tablet ID', 'Orig. tablet ID'
 UNION
