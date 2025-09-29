@@ -1,4 +1,4 @@
-### These scripts need to executed with MySql BEFORE extracting the data from Prosobab with the queries in the other files.
+### These scripts need to executed with MySql BEFORE extracting the data from Prosobab with the queries in the other files. The queries have been created with MySql 9.2 and may need to be adjusted if used with other versions.
 
 ### Once you have created the Prosobab database and started using it with mysql> USE <database>, you can choose any folder to extract the data. All these command are executed from the MySql prompt (mysql>).
 
