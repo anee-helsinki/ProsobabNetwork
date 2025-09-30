@@ -19,7 +19,7 @@ mysql> USE DB;
 
 From the MySql database, we extracted all individuals, their attestations in tablets (cuneiform documents), and the tablets. We publish the extracted data here in two formats, as three TSV files (tab-separated values) and as an Excel worksheet:
 - Attestations.tsv: The attestations of individuals (with IDs) in tablets (with IDs) with information on that attestation.
-- Individuals.tsv: Individual persons with all the attribute information available in the database. We have also added attestation IDs for each individual. This is the same file as /Networks/individuals.tsv, but two column titles have been changed: Personal ID = ID and Name = Label. **New file coming shortly!**
+- Individuals.tsv: Individual persons with all the attribute information available in the database. We have also added attestation IDs for each individual. This is the same file as /Networks/individuals.tsv, but two column titles have been changed: Personal ID = ID and Name = Label.
 - Tablets.tsv: Tablets with all the metadata in the database + all the attestation IDs of individuals in the tablet.
 
 From the database, we extracted all the information that is also available on the online portal of Prosobab in the attestation, individual, and tablet views. The online portal provides a date range for each individual, showing when the person is attested for the first and last time in a dated tablet. The dates are available for each tablet in the database, and from there we extracted the dates for the earliest and latest tablets for each individual and added these dates as that person's min date and max date. 
