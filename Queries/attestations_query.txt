@@ -2,7 +2,7 @@
 
 ### The name of the output file on the last line may need to be preceded by the path to the location WHERE the file is saved. You might also need to add the path to folder you want to save the final TSV.file to into the file .my.conf.
 
-SELECT 'Attestation ID', 'Orig. attestation ID', 'Name', 'Name spelling', 'Other name', 'Patronym', 'Patronym spelling', 'Other patronym', 'Other patronym spelling', 'Family name', 'Family name spelling', 'Gender', 'Is child', 'Titles', 'Possessions', 'Legal roles', 'Relations', 'Comments', 'Personal ID', 'Orig. personal ID', 'PID probability(0-3)/Comment', 'Museum no.', 'Date (D.M.Y King)', 'Reign', 'Reign order', 'Place of writing', 'Archive', 'Publication', 'Author', 'Tablet ID', 'Orig. tablet ID'
+SELECT 'Attestation ID', 'Orig. attestation ID', 'Name', 'Name spelling', 'Other name', 'Patronym', 'Patronym spelling', 'Other patronym', 'Other patronym spelling', 'Family name', 'Family name spelling', 'Gender', 'Is child', 'Titles', 'Possessions', 'Legal roles', 'Relations', 'Comments', 'Personal ID', 'Orig. personal ID', 'Comment', 'Museum no.', 'Date (D.M.Y King)', 'Reign', 'Reign order', 'Place of writing', 'Archive', 'Publication', 'Author', 'Tablet ID', 'Orig. tablet ID'
 UNION
 SELECT distinct concat('A', lpad(a.ATTPID, 5,0)),
 	a.ATTPID,
