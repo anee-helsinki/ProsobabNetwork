@@ -2,13 +2,17 @@
 
 ### Once you have created the Prosobab database and started using it with mysql> USE <database>, you can choose any folder to extract the data. All these command are executed from the MySql prompt (mysql>).
 
+### You can copy the commands (lines without ###) from here. YOU CAN EXECUTE SEVERAL QUERIES AT ONCE (a query end with ;) 
+### BUT REMEMBER TO PRESS ENTER TO EXECUTE THE LAST COMMAND AS WELL
+
+### If you have not chosen a database to use yet, do it now
+USE DB
 
 ### To be able to handle large concatenations set their length and deactivate the grouping for the duration of the session (i.e. until the mysql is started again.
 ### MySql now requires group by and the queries are made so that this would be satisfied. However, extracting all the information for the individuals is a huge effort and with using group by our MySql ran out of memory. So we deactivated the only_full_group_by mode.
 SET SESSION group_concat_max_len = 150000;
 SET SESSION sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 
-### You can copy the commands (lines without ###) from here. YOU CAN EXECUTE SEVERAL QUERIES AT ONCE (a query end with ;) BUT REMEMBER TO PRESS ENTER TO EXECUTE THE LAST COMMAND AS WELL
 
 ### In case you redo from the beginning, remove the temporary tables
 DROP TABLE IF EXISTS ascDates;
